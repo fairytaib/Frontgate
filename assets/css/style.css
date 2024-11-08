@@ -14,13 +14,15 @@
 }
 /* General Styling */
 body{
-    background-color: var(--bodyColor)
+    background-color: var(--bodyColor);
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: var(--headingsFont)
+    font-family: var(--headingsFont);
+    color: white;
 }
-p{
-    font-family: var(--textFont)
+p, .nav-link{
+    font-family: var(--textFont);
+    color: white;
 }
 
 
@@ -31,7 +33,28 @@ nav{
 }
 #logoIcon{
     color: white;
+    width: 60px;
+    border: white solid 1px;
 }
+
+.nav-link{
+    font-size: 1.3rem;
+}
+.nav-link:hover{
+    font-size: 1.3rem;
+    color: rgb(205, 205, 205);
+}
+
+/* Hamburger */
 .navbar-toggler{
     background-color: white;
 }
+/* Hamburger */
+
+
+@media only screen and (max-width: 576px){
+    #logoIcon{
+        width: 40px;
+    }
+}
+    
