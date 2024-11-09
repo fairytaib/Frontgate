@@ -22,8 +22,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/android-chrome-192x192.png" alt="Frontgate-Logo" id="logoIcon"></a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/android-chrome-192x192.png"
+                    alt="Frontgate-Logo" id="logoIcon"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,23 +53,27 @@
     </nav>
 
 
-    <header id="hero" class="container mb-4 sharp-corners">
+    <header id="hero" class="container-fluid mb-4 sharp-corner">
         <!-- section with hero image -->
         <section class="row">
             <!-- text-center class used to centre all text inside column -->
             <div class="col-12 text-center">
-                <h1 class="display-4 my-4">Frontgate</h1>
+                <div class="overlay"></div>
+                <h1 class="display-4 my-4 ">Frontgate</h1>
                 <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="display-6 mb-5">Open the Frontgate to Webdevelopement</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam possimus doloribus dolores ab est, quaerat iste minima vel architecto consequuntur obcaecati porro iusto enim facere aliquid ipsum. Laborum, accusantium praesentium?
+                <h2 class="display-6 mb-5 ">Open the Frontgate to Webdevelopement</h2>
+                <p class="">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam possimus doloribus dolores ab est,
+                    quaerat iste minima vel architecto consequuntur obcaecati porro iusto enim facere aliquid ipsum.
+                    Laborum, accusantium praesentium?
                 </p>
                 <!-- mb-5 gives extra margin spacing under lead text -->
-                <p class="lead mb-5">Lass uns gemeinsam etwas Großartiges schaffen!</p>
+                <p class="lead mb-2 ">Lass uns gemeinsam etwas Großartiges schaffen!</p>
             </div>
             <div class="col-12 text-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     Klick mich
                 </button>
 
@@ -95,7 +100,7 @@
                                     <input type="email" class="form-control" id="inputEmail">
                                 </div>
                             </form>
-                            
+
                             <div class="modal-footer justify-content-start">
                                 <button type="button" class="btn btn-primary">Abonnieren</button>
                             </div>
@@ -107,7 +112,66 @@
         </section>
     </header>
 
-    <main></main>
+    <main>
+        <section class="container contrastColorOne">
+            <div class="row text-center">
+                <div class="col-12 col-lg-6 d-flex">
+                    <h1 class="align-self-lg-center">What is Front-End-Developement?</h1>
+                </div>
+                <p class="col-12 col-lg-6">Front-end development is the part of web development focused on creating the
+                    visual elements of a website or web application that users interact with directly. Think of it as
+                    the "face" of a website – everything you see, click, and use on a web page is built by a front-end
+                    developer. This includes layout, colors, fonts, buttons, and menus. Front-end development relies on
+                    three main languages: HTML, CSS, and JavaScript.
+
+                    HTML (HyperText Markup Language) provides the basic structure of the site. CSS (Cascading Style
+                    Sheets) is used to style and design how the page looks, such as colors and layouts. JavaScript adds
+                    interactivity, making elements like forms and buttons responsive to user actions. Front-end
+                    developers also ensure that websites work well on various devices, like phones and tablets, and
+                    across different browsers. In short, front-end development brings the visual and interactive side of
+                    a website to life, creating a smooth, engaging experience for users.
+                </p>
+            </div>
+        </section>
+        <section class="container-fluid contrastColorTwo">
+            <div class="row ">
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

@@ -7,6 +7,7 @@
     --textFont: "Roboto", sans-serif;
     --bodyColor: #121212;
     --navColor: #1F2933;
+    --heroTextColor: #505b68;
     --mainColor: #2C3E50;
     --footerColor: #0D1B2A;
     --mainCallToAction: #0D1B2A;
@@ -24,7 +25,13 @@ p, .nav-link{
     font-family: var(--textFont);
     color: white;
 }
+.contrastColorOne{
+    background-color: var(--mainColor);
+}
 
+.contrastColorTwo{
+    background-color: var(--heroTextColor);
+}
 
 /* Specific Styling */
 /* navbar */
@@ -50,6 +57,18 @@ nav{
     background-color: white;
 }
 /* Hamburger */
+
+/* header-section */
+header{
+    background-color: whitesmoke;
+}
+
+header *{
+    color: var(--heroTextColor);
+}
+
+
+/* header-section */
 
 
 @media only screen and (max-width: 576px){
