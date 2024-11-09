@@ -5,7 +5,7 @@
 :root{
     --headingsFont: "Orbitron", sans-serif;
     --textFont: "Roboto", sans-serif;
-    --bodyColor: #121212;
+    --bodyColor: whitesmoke;
     --navColor: #1F2933;
     --heroTextColor: #505b68;
     --mainColor: #2C3E50;
@@ -67,9 +67,10 @@ header *{
     color: var(--heroTextColor);
 }
 
-
-/* header-section */
-
+/* Main-Section */
+#Frontend{
+    order: 1;
+}
 
 @media only screen and (max-width: 576px){
     #logoIcon{
