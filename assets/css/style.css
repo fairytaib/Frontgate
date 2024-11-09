@@ -96,6 +96,8 @@ header *{
 /* footer */
 footer{
     background-color: var(--footerColor);
+    color: white;
+    font-family: var(--textFont);
 }
 
 
