@@ -25,6 +25,12 @@ p, .nav-link{
     font-family: var(--textFont);
     color: white;
 }
+
+.callToAction{
+    color: var(--mainCallToAction);
+    background-color: var(--secondCallToAction);
+    
+}
 .contrastColorOne{
     background-color: var(--mainColor);
 }
@@ -32,6 +38,8 @@ p, .nav-link{
 .contrastColorTwo{
     background-color: var(--heroTextColor);
 }
+
+
 
 /* Specific Styling */
 /* navbar */
@@ -51,6 +59,7 @@ nav{
     font-size: 1.3rem;
     color: rgb(205, 205, 205);
 }
+
 
 /* Hamburger */
 .navbar-toggler{
