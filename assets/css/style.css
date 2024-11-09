@@ -71,10 +71,35 @@ header *{
 #Frontend{
     order: 1;
 }
+.card{
+    width: 24rem;
+}
+
+.card-text{
+    color: var(--mainColor);
+}
+
+/* footer */
+footer{
+    background-color: var(--footerColor);
+}
+
 
 @media only screen and (max-width: 576px){
     #logoIcon{
         width: 40px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .card{
+        width: 32rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .card{
+        width: 28rem;
     }
 }
     
