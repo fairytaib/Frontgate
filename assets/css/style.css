@@ -69,7 +69,7 @@ nav{
 
 /* header-section */
 header{
-    background-color: whitesmoke;
+    background: url(../videos/3130182-uhd_3840_2160_30fps.mp4) no-repeat center center/cover;
 }
 
 header *{
@@ -87,6 +87,8 @@ header *{
 
 .card{
     width: 24rem;
+    border: none;
+    box-shadow: none;
 }
 
 .card-text{
