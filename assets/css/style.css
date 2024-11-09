@@ -80,6 +80,11 @@ header *{
 #Frontend{
     order: 1;
 }
+.explanation{
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
 .card{
     width: 24rem;
 }
