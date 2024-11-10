@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand ps-3" href="index.html"><img src="assets/images/android-chrome-192x192.png"
                     alt="Frontgate-Logo" id="logoIcon"></a>
@@ -59,7 +59,7 @@
         </div>
     </nav>
     <!-- Header-Section for CSS -->
-    <header>
+    <header style="padding-top: 70px;">
         <div class="heroTitleSection text-center contrastColorOne pt-5 pb-5 mb-0">
             <h1>CSS</h1>
             <h3>The clothing of Webpages</h3>
@@ -110,14 +110,18 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">The below part is designed with CSS</h1>
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">The below part is designed with
+                                        CSS</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <h1>What can CSS do?</h1>
-                                    <p class="CSS-DesignOne">This is just some simple text that we designed but you can style anything in your HTML. Be it Buttons, Modals, Pictures, Backgrounds and many more</p>
-                                    <p class="CSS-DesignTwo">Even the positions of or the font is editable with CSS. There are mony options that you can choose from</p>
+                                    <p class="CSS-DesignOne">This is just some simple text that we designed but you can
+                                        style anything in your HTML. Be it Buttons, Modals, Pictures, Backgrounds and
+                                        many more</p>
+                                    <p class="CSS-DesignTwo">Even the positions of or the font is editable with CSS.
+                                        There are mony options that you can choose from</p>
                                 </div>
                             </div>
                         </div>
@@ -126,28 +130,55 @@
 
             </div>
         </section>
-        <!-- How do i write HTML Section -->
+        <!-- How do i write CSS Section -->
         <section class="container-fluid contrastColorTwo">
             <div class="row text-center">
                 <div class="col-12 mt-sm-4 mt-lg-0 pt-4">
-                    <h1 class="align-self-lg-center mt-lg-3">How do i write HTML?</h1>
+                    <h1 class="align-self-lg-center mt-lg-3">How do i write CSS?</h1>
                 </div>
                 <div class="col-12 mb-4">
                     <p class="col-12 pt-5 ps-5 pe-5 text-center explanation">
-                        To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
-                        program like Notepad.
-                        HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
-                        structure and syntax
-                        that organizes content in a way the browser can read and display.
+                        Inline CSS involves adding styles directly to an HTML element using the
+                        style attribute. For example: <br><br>&lt;p style="color: blue;"&gt; This is blue
+                        text. &lt;/p&gt; <br><br> This makes the paragraph blue. However, inline CSS is typically only
+                        used for small, specific changes, as it can make your code harder to manage. 
+                        Internal CSS is placed within the "&lt;style&gt;" tag in the
+                        &lt;head&gt; section of an HTML document. This method is useful if you only
+                        need the styles for a single page. Here’s an example: <br><br>
+                        &lt;style&gt;
+                            p {
+                            color: blue;
+                            }
+                            &lt;/style&gt;<br><br>
+                        External CSS  is the most common and efficient way to write CSS, as it keeps
+                        all styles in a separate .css  file (e.g.,  styles.css ). This file
+                        is then linked to the HTML document using a "&lt;link&gt;" tag in the
+                        section, like so: <br><br>
+                         &lt;head&gt;
+                            &lt;link rel="stylesheet" href="styles.css"&gt;
+                            &lt;/head&gt;<br><br> 
+                        Inside your CSS file, you create  selectors  (like  p ,
+                         h1 ,  .classname ,  #idname ) to target HTML elements and
+                        define their styles. For example:<br><br>
+                         body {
+                            background-color: lightgray;
+                            }<br>
+                            h1{
+                            font-family: sans-serif;
+                            }<br>
+                            p {
+                            color: blue;
+                            font-size: 16px;
+                            }<br><br>
+                        Each style rule has a selector (the HTML element or class you want to
+                        style), followed by  property-value pairs  inside curly braces
+                        {}, which define what the element should look like. For instance:<br><br>
+                        color: blue;<br><br> 
+                        is a rule that sets the text color to blue.
 
-                        At the core of HTML is the concept of tags. Tags are written within angle brackets, like
-                        &lt;tagname&gt;. Most HTML
-                        elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which
-                        contain
-                        the content between them.
-                        For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a
-                        paragraph
-                        on a web page.
+                        Using CSS properly, especially external CSS, makes it easy to style and maintain your
+                        website, as changes in the CSS file automatically update all linked pages. This approach is
+                        key to keeping your web design organized and efficient.
                     </p>
                 </div>
                 <div class="pb-5">
@@ -157,7 +188,7 @@
                                 <button class="accordion-button collapsed contrastColorOne" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                                     aria-controls="collapseOne">
-                                    Understanding the Basics of HTML Structure
+                                    What are CSS classes?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse "
@@ -168,20 +199,20 @@
                                     first, but by breaking it down into simple steps, it’s quite manageable. HTML works
                                     by using tags to organize content. Each HTML document starts with a basic structure
                                     that tells a browser how to display the content. <br>
-                                    An HTML document always starts with the <code>&lt;!DOCTYPE html&gt;</code>
+                                    An HTML document always starts with the  &lt;!DOCTYPE html&gt; 
                                     declaration. This line tells the browser that the document uses HTML5, the latest
                                     version of HTML. Following this, every HTML document has opening and closing
-                                    <code>&lt;html&gt;</code> tags, which wrap the entire content. Inside the
-                                    <code>&lt;html&gt;</code> tags, there are two essential sections: the
-                                    <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code> <br>
-                                    The <code>&lt;head&gt;</code> section contains information about the document
+                                     &lt;html&gt;  tags, which wrap the entire content. Inside the
+                                     &lt;html&gt;  tags, there are two essential sections: the
+                                     &lt;head&gt;  and the  &lt;body&gt;  <br>
+                                    The  &lt;head&gt;  section contains information about the document
                                     that is not displayed on the webpage but is important for the browser and search
-                                    engines. For example, the <code>&lt;title&gt;</code> tag inside the
-                                    <code>&lt;head&gt;</code> sets the title of the webpage, which you see on the
-                                    browser tab. There can also be meta tags, like <code>&lt;meta
-                                        charset="UTF-8"&gt;</code>, which helps ensure the text is displayed
+                                    engines. For example, the  &lt;title&gt;  tag inside the
+                                     &lt;head&gt;  sets the title of the webpage, which you see on the
+                                    browser tab. There can also be meta tags, like  &lt;meta
+                                        charset="UTF-8"&gt; , which helps ensure the text is displayed
                                     correctly. <br>
-                                    The <code>&lt;body&gt;</code> section is where the actual content of the webpage
+                                    The  &lt;body&gt;  section is where the actual content of the webpage
                                     goes. This includes everything the user sees, like text, images, links, and
                                     more. Each part of the content is wrapped in HTML tags to give it structure and
                                     style. <br>
@@ -204,39 +235,39 @@
                                 <div class="accordion-body">
                                     Once you understand the basic structure of an HTML document, you can start adding
                                     content using different HTML elements. Elements in HTML are represented by tags,
-                                    which are written between angle brackets, like <code>&lt;p&gt;</code> for a
-                                    paragraph or <code>&lt;h1&gt;</code> for a heading.
+                                    which are written between angle brackets, like  &lt;p&gt;  for a
+                                    paragraph or  &lt;h1&gt;  for a heading.
                                     <br>
                                     For instance, if you want to add a heading to your webpage, you would use the
-                                    <code>&lt;h1&gt;</code> tag for the main heading. Subheadings use
-                                    <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, and so on, with
-                                    <code>&lt;h6&gt;</code> being the smallest heading. A simple example looks like
+                                     &lt;h1&gt;  tag for the main heading. Subheadings use
+                                     &lt;h2&gt; ,  &lt;h3&gt; , and so on, with
+                                     &lt;h6&gt;  being the smallest heading. A simple example looks like
                                     this:
                                     <br>
-                                    <code>&lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph
-                                        with some introductory text.&lt;/p&gt;</code>
+                                     &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph
+                                        with some introductory text.&lt;/p&gt; 
                                     <br>
-                                    In the example above, <code>&lt;h1&gt;</code> is a tag that displays a large
-                                    heading, while <code>&lt;p&gt;</code> is a tag that creates a paragraph of text.
+                                    In the example above,  &lt;h1&gt;  is a tag that displays a large
+                                    heading, while  &lt;p&gt;  is a tag that creates a paragraph of text.
                                     HTML elements usually have an opening tag, content, and a closing tag. The
                                     closing tag looks like the opening tag but with a forward slash (e.g.,
-                                    <code>&lt;/p&gt;</code>).
+                                     &lt;/p&gt; ).
                                     <br>
-                                    HTML also allows you to create lists using <code>&lt;ul&gt;</code> for unordered
-                                    (bulleted) lists and <code>&lt;ol&gt;</code> for ordered (numbered) lists. Each
-                                    item in a list is wrapped in an <code>&lt;li&gt;</code> (list item) tag:
+                                    HTML also allows you to create lists using  &lt;ul&gt;  for unordered
+                                    (bulleted) lists and  &lt;ol&gt;  for ordered (numbered) lists. Each
+                                    item in a list is wrapped in an  &lt;li&gt;  (list item) tag:
                                     <br>
-                                    <code>&lt;ul&gt;<br> &nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item
-                                        2&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br>&lt;/ul&gt;</code>
+                                     &lt;ul&gt;<br> &nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item
+                                        2&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br>&lt;/ul&gt; 
 
                                     <br>
-                                    Links are created with the <code>&lt;a&gt;</code> tag, and images with the
-                                    <code>&lt;img&gt;</code> tag. Links use the <code>href</code> attribute to
-                                    specify the URL, while images use the <code>src</code> attribute to specify the
+                                    Links are created with the  &lt;a&gt;  tag, and images with the
+                                     &lt;img&gt;  tag. Links use the  href  attribute to
+                                    specify the URL, while images use the  src  attribute to specify the
                                     path to the image file. For example:
                                     <br>
-                                    <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;<br>&lt;img
-                                        src="image.jpg" alt="Description of image"&gt;</code>
+                                     &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;<br>&lt;img
+                                        src="image.jpg" alt="Description of image"&gt; 
 
                                 </div>
                             </div>
