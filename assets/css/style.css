@@ -42,6 +42,7 @@ p, .nav-link{
 
 
 /* Specific Styling */
+
 /* navbar */
 nav{
     background-color: var(--navColor);
@@ -68,13 +69,27 @@ nav{
 /* Hamburger */
 
 /* header-section */
-header{
-    background: url(../videos/3130182-uhd_3840_2160_30fps.mp4) no-repeat center center/cover;
-}
+
 
 header *{
-    color: var(--heroTextColor);
+    color: white;
 }
+#hero{
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+/* background-video */
+.videoBg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 
 /* Main-Section */
 #Frontend{
