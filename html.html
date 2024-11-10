@@ -137,7 +137,7 @@
                     <h1 class="align-self-lg-center mt-lg-3">How do i write HTML?</h1>
                 </div>
                 <div class="col-12 mt-4 mb-4">
-                    <p class="col-12 p-5 text-center explanation">
+                    <p class="col-12 pt-5 ps-5 pe-5 text-center explanation">
                         To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
                         program like Notepad.
                         HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
@@ -154,25 +154,43 @@
                         on a web page.
                     </p>
                 </div>
-                <div class="buttonList pb-5">
-                    <div class="accordion" id="accordionExample">
+                <div class="pb-5">
+                    <div class="accordion ps-3 pe-3" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    Understanding the Basics of HTML Structure
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
+                            <div id="collapseOne" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by
-                                    default, until the collapse plugin adds the appropriate classes that we use to
-                                    style each element. These classes control the overall appearance, as well as the
-                                    showing and hiding via CSS transitions. You can modify any of this with custom
-                                    CSS or overriding our default variables. It's also worth noting that just about
-                                    any HTML can go within the <code>.accordion-body</code>, though the transition
-                                    does limit overflow.
+                                <div class="accordion-body accordionPictureContainer">
+                                    HTML, which stands for HyperText Markup Language, is the standard language used to
+                                    create and structure content on the web. Learning HTML can seem a bit daunting at
+                                    first, but by breaking it down into simple steps, it’s quite manageable. HTML works
+                                    by using tags to organize content. Each HTML document starts with a basic structure
+                                    that tells a browser how to display the content. <br>
+                                    An HTML document always starts with the <code>&lt;!DOCTYPE html&gt;</code>
+                                    declaration. This line tells the browser that the document uses HTML5, the latest
+                                    version of HTML. Following this, every HTML document has opening and closing
+                                    <code>&lt;html&gt;</code> tags, which wrap the entire content. Inside the
+                                    <code>&lt;html&gt;</code> tags, there are two essential sections: the
+                                    <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code> <br>
+                                    The <code>&lt;head&gt;</code> section contains information about the document
+                                    that is not displayed on the webpage but is important for the browser and search
+                                    engines. For example, the <code>&lt;title&gt;</code> tag inside the
+                                    <code>&lt;head&gt;</code> sets the title of the webpage, which you see on the
+                                    browser tab. There can also be meta tags, like <code>&lt;meta
+                                        charset="UTF-8"&gt;</code>, which helps ensure the text is displayed
+                                    correctly. <br>
+                                    The <code>&lt;body&gt;</code> section is where the actual content of the webpage
+                                    goes. This includes everything the user sees, like text, images, links, and
+                                    more. Each part of the content is wrapped in HTML tags to give it structure and
+                                    style. <br>
+                                    For Example: <br> <br>
+                                    <img class="accordionPicture" src="assets/images/HTMLExampleII.png"
+                                        alt="Exapmple of HTML">
                                 </div>
                             </div>
                         </div>
@@ -180,40 +198,76 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    Writing and Organizing HTML Elements
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by
-                                    default, until the collapse plugin adds the appropriate classes that we use to
-                                    style each element. These classes control the overall appearance, as well as the
-                                    showing and hiding via CSS transitions. You can modify any of this with custom
-                                    CSS or overriding our default variables. It's also worth noting that just about
-                                    any HTML can go within the <code>.accordion-body</code>, though the transition
-                                    does limit overflow.
+                                    Once you understand the basic structure of an HTML document, you can start adding
+                                    content using different HTML elements. Elements in HTML are represented by tags,
+                                    which are written between angle brackets, like <code>&lt;p&gt;</code> for a
+                                    paragraph or <code>&lt;h1&gt;</code> for a heading.
+                                    <br>
+                                    For instance, if you want to add a heading to your webpage, you would use the
+                                    <code>&lt;h1&gt;</code> tag for the main heading. Subheadings use
+                                    <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, and so on, with
+                                    <code>&lt;h6&gt;</code> being the smallest heading. A simple example looks like
+                                    this:
+                                    <br>
+                                    <code>&lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph
+                                        with some introductory text.&lt;/p&gt;</code>
+                                    <br>
+                                    In the example above, <code>&lt;h1&gt;</code> is a tag that displays a large
+                                    heading, while <code>&lt;p&gt;</code> is a tag that creates a paragraph of text.
+                                    HTML elements usually have an opening tag, content, and a closing tag. The
+                                    closing tag looks like the opening tag but with a forward slash (e.g.,
+                                    <code>&lt;/p&gt;</code>).
+                                    <br>
+                                    HTML also allows you to create lists using <code>&lt;ul&gt;</code> for unordered
+                                    (bulleted) lists and <code>&lt;ol&gt;</code> for ordered (numbered) lists. Each
+                                    item in a list is wrapped in an <code>&lt;li&gt;</code> (list item) tag:
+                                    <br>
+                                    <code>&lt;ul&gt;<br> &nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item
+                                        2&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br>&lt;/ul&gt;</code>
+
+                                    <br>
+                                    Links are created with the <code>&lt;a&gt;</code> tag, and images with the
+                                    <code>&lt;img&gt;</code> tag. Links use the <code>href</code> attribute to
+                                    specify the URL, while images use the <code>src</code> attribute to specify the
+                                    path to the image file. For example:
+                                    <br>
+                                    <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;<br>&lt;img
+                                        src="image.jpg" alt="Description of image"&gt;</code>
+
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Testing and Viewing Your HTML Code in a Browser
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by
-                                    default, until the collapse plugin adds the appropriate classes that we use to
-                                    style each element. These classes control the overall appearance, as well as the
-                                    showing and hiding via CSS transitions. You can modify any of this with custom
-                                    CSS or overriding our default variables. It's also worth noting that just about
-                                    any HTML can go within the <code>.accordion-body</code>, though the transition
-                                    does limit overflow.
+                                    After writing your HTML, you’ll want to see it in action! Save your file with an
+                                    .html extension (for example, index.html) and open it in a web browser. Most
+                                    browsers, like Chrome, Firefox, or Safari, allow you to view HTML files directly.
+                                    Simply double-click the file, and it should open in your default browser, displaying
+                                    the content you created.
+
+                                    It’s important to test and view your code frequently to check if it displays as
+                                    expected. Browsers also have developer tools, accessible by pressing F12 or
+                                    right-clicking on the page and selecting "Inspect." These tools let you examine the
+                                    HTML structure, troubleshoot issues, and experiment with changes.
+
+                                    By following these steps, you can begin to understand the structure and syntax of
+                                    HTML. With practice, you’ll be able to create more complex pages, and as you
+                                    progress, you may also want to learn about CSS (Cascading Style Sheets) to style
+                                    your HTML content and make your webpages look more visually appealing.
                                 </div>
                             </div>
                         </div>

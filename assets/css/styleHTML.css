@@ -7,3 +7,16 @@ header img{
 .modal-title{
     color: black;
 }
+
+/* Main Section */
+
+.accordionPicture{
+    width: 70vw;
+} 
+
+
+@media only screen and (max-width: 768px){
+    .accordionPicture{
+        width: 90vw;
+    }
+}
