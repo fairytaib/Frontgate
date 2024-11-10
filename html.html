@@ -76,21 +76,57 @@
                 <div class="col-12 col-lg-6 d-flex justify-content-center mt-sm-4">
                     <h1 class="align-self-lg-center">Why is HTML so important for Web developement?</h1>
                 </div>
-                <p class="col-12 col-lg-6 p-5 explanation">HTML (HyperText Markup Language) is essential to web
-                    development because it forms the backbone of every web page. It’s the first layer that gives
-                    structure to web content, defining elements like headings, paragraphs, images, links, and more. HTML
-                    tells the web browser how to display information, making it readable and organized for users.
-                    Without HTML, a web page would just be plain text with no structure or design.
+                <div class="col-12 col-lg-6 d-flex justify-content-center flex-column mt-4 mb-4">
+                    <p class="explanation">HTML (HyperText Markup Language) is essential to web
+                        development because it forms the backbone of every web page. It’s the first layer that gives
+                        structure to web content, defining elements like headings, paragraphs, images, links, and more.
+                        HTML
+                        tells the web browser how to display information, making it readable and organized for users.
+                        Without HTML, a web page would just be plain text with no structure or design.
 
-                    HTML also plays a crucial role in accessibility and search engine optimization (SEO). By using HTML
-                    tags properly, developers can make content more accessible to people with disabilities, who may use
-                    screen readers to navigate the web. Additionally, search engines rely on HTML to understand a page's
-                    content, which helps improve the site’s visibility in search results.
+                        HTML also plays a crucial role in accessibility and search engine optimization (SEO). By using
+                        HTML
+                        tags properly, developers can make content more accessible to people with disabilities, who may
+                        use
+                        screen readers to navigate the web. Additionally, search engines rely on HTML to understand a
+                        page's
+                        content, which helps improve the site’s visibility in search results.
 
-                    In summary, HTML is important because it lays the foundation for all other web technologies,
-                    enabling web pages to be structured, accessible, and easy to interpret for both users and search
-                    engines. It’s the essential starting point for anyone building or learning about websites.
-                </p>
+                        In summary, HTML is important because it lays the foundation for all other web technologies,
+                        enabling web pages to be structured, accessible, and easy to interpret for both users and search
+                        engines. It’s the essential starting point for anyone building or learning about websites.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary align-self-lg-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Website without HTML
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">The below part is written
+                                        without any HTML</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Why HTML is important
+                                    As you can see the basic structure of this text is quite the mess. You would not
+                                    know where i made a paragraph or what exactly the title is.
+                                    Different to the Image you saw at the top of the page, this section has no
+                                    HTML-Rules applied so you can fully experience a world without HTML.
+                                    To give you another example i write the text from the above Image again: Hello my
+                                    friend This is what basic HTML looks like Not really interesting.. I know but still
+                                    important
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <!-- How do i write HTML Section -->
@@ -100,13 +136,18 @@
                     <h1 class="align-self-lg-center mt-lg-3">How do i write HTML?</h1>
                 </div>
                 <p class="col-12 col-lg-6 p-5 order-lg-1 explanation">
-                    To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple program like Notepad.
-                    HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific structure and syntax
+                    To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
+                    program like Notepad.
+                    HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
+                    structure and syntax
                     that organizes content in a way the browser can read and display.
-                
-                    At the core of HTML is the concept of tags. Tags are written within angle brackets, like &lt;tagname&gt;. Most HTML
-                    elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which contain the content between them.
-                    For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a paragraph on a web page.
+
+                    At the core of HTML is the concept of tags. Tags are written within angle brackets, like
+                    &lt;tagname&gt;. Most HTML
+                    elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which contain
+                    the content between them.
+                    For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a paragraph
+                    on a web page.
                 </p>
 
             </div>
@@ -181,4 +222,8 @@
         </div>
         </div>
     </footer>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
