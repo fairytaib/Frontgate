@@ -72,7 +72,7 @@
     <main>
         <!-- Why is HTML important Section -->
         <section class="container-fluid contrastColorOne">
-            <div class="row text-center">
+            <div class="row text-center pt-5 pb-5">
                 <div class="col-12 col-lg-6 d-flex justify-content-center mt-sm-4">
                     <h1 class="align-self-lg-center">Why is HTML so important for Web developement?</h1>
                 </div>
@@ -97,8 +97,9 @@
                         engines. It’s the essential starting point for anyone building or learning about websites.
                     </p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary align-self-lg-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Website without HTML
+                    <button type="button" class="btn btn-primary align-self-lg-center" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        A Website without HTML
                     </button>
 
                     <!-- Modal -->
@@ -131,25 +132,93 @@
         </section>
         <!-- How do i write HTML Section -->
         <section class="container-fluid contrastColorTwo">
-            <div class="row text-center d-flex">
-                <div class="col-12 col-lg-6 order-lg-2 d-flex justify-content-center mt-sm-4">
+            <div class="row text-center">
+                <div class="col-12 mt-sm-4 mt-lg-0">
                     <h1 class="align-self-lg-center mt-lg-3">How do i write HTML?</h1>
                 </div>
-                <p class="col-12 col-lg-6 p-5 order-lg-1 explanation">
-                    To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
-                    program like Notepad.
-                    HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
-                    structure and syntax
-                    that organizes content in a way the browser can read and display.
+                <div class="col-12 mt-4 mb-4">
+                    <p class="col-12 p-5 text-center explanation">
+                        To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
+                        program like Notepad.
+                        HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
+                        structure and syntax
+                        that organizes content in a way the browser can read and display.
 
-                    At the core of HTML is the concept of tags. Tags are written within angle brackets, like
-                    &lt;tagname&gt;. Most HTML
-                    elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which contain
-                    the content between them.
-                    For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a paragraph
-                    on a web page.
-                </p>
-
+                        At the core of HTML is the concept of tags. Tags are written within angle brackets, like
+                        &lt;tagname&gt;. Most HTML
+                        elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which
+                        contain
+                        the content between them.
+                        For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a
+                        paragraph
+                        on a web page.
+                    </p>
+                </div>
+                <div class="buttonList pb-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It's also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It's also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It's also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Card Sectio -->
