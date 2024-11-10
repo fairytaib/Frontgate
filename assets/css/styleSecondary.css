@@ -1,0 +1,39 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Creating changable Root-Elements */
+:root{
+    --headingsFont: "Orbitron", sans-serif;
+    --textFont: "Roboto", sans-serif;
+    --bodyColor: whitesmoke;
+    --navColor: #1F2933;
+    --heroTextColor: #505b68;
+    --mainColor: #2C3E50;
+    --footerColor: #0D1B2A;
+    --mainCallToAction: #0D1B2A;
+    --secondCallToAction: #FF5722;
+}
+/* Header Section */
+header img{
+    width: 100vw;
+}
+
+.modal-title{
+    color: black;
+}
+
+/* Main Section */
+.accordion-button{
+    color: white;
+}
+
+.accordionPicture{
+    width: 70vw;
+} 
+
+
+@media only screen and (max-width: 768px){
+    .accordionPicture{
+        width: 90vw;
+    }
+}
