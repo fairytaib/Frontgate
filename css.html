@@ -141,39 +141,39 @@
                         Inline CSS involves adding styles directly to an HTML element using the
                         style attribute. For example: <br><br>&lt;p style="color: blue;"&gt; This is blue
                         text. &lt;/p&gt; <br><br> This makes the paragraph blue. However, inline CSS is typically only
-                        used for small, specific changes, as it can make your code harder to manage. 
+                        used for small, specific changes, as it can make your code harder to manage.
                         Internal CSS is placed within the "&lt;style&gt;" tag in the
                         &lt;head&gt; section of an HTML document. This method is useful if you only
                         need the styles for a single page. Here’s an example: <br><br>
                         &lt;style&gt;
-                            p {
-                            color: blue;
-                            }
-                            &lt;/style&gt;<br><br>
-                        External CSS  is the most common and efficient way to write CSS, as it keeps
-                        all styles in a separate .css  file (e.g.,  styles.css ). This file
+                        p {
+                        color: blue;
+                        }
+                        &lt;/style&gt;<br><br>
+                        External CSS is the most common and efficient way to write CSS, as it keeps
+                        all styles in a separate .css file (e.g., styles.css ). This file
                         is then linked to the HTML document using a "&lt;link&gt;" tag in the
                         section, like so: <br><br>
-                         &lt;head&gt;
-                            &lt;link rel="stylesheet" href="styles.css"&gt;
-                            &lt;/head&gt;<br><br> 
-                        Inside your CSS file, you create  selectors  (like  p ,
-                         h1 ,  .classname ,  #idname ) to target HTML elements and
+                        &lt;head&gt;
+                        &lt;link rel="stylesheet" href="styles.css"&gt;
+                        &lt;/head&gt;<br><br>
+                        Inside your CSS file, you create selectors (like p ,
+                        h1 , .classname , #idname ) to target HTML elements and
                         define their styles. For example:<br><br>
-                         body {
-                            background-color: lightgray;
-                            }<br>
-                            h1{
-                            font-family: sans-serif;
-                            }<br>
-                            p {
-                            color: blue;
-                            font-size: 16px;
-                            }<br><br>
+                        body {
+                        background-color: lightgray;
+                        }<br>
+                        h1{
+                        font-family: sans-serif;
+                        }<br>
+                        p {
+                        color: blue;
+                        font-size: 16px;
+                        }<br><br>
                         Each style rule has a selector (the HTML element or class you want to
-                        style), followed by  property-value pairs  inside curly braces
+                        style), followed by property-value pairs inside curly braces
                         {}, which define what the element should look like. For instance:<br><br>
-                        color: blue;<br><br> 
+                        color: blue;<br><br>
                         is a rule that sets the text color to blue.
 
                         Using CSS properly, especially external CSS, makes it easy to style and maintain your
@@ -183,6 +183,7 @@
                 </div>
                 <div class="pb-5">
                     <div class="accordion ps-3 pe-3 " id="accordionExample">
+                        <!-- Acordion-Item 1 -->
                         <div class="accordion-item ">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button"
@@ -194,110 +195,106 @@
                             <div id="collapseOne" class="accordion-collapse collapse "
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body accordionPictureContainer">
-                                    HTML, which stands for HyperText Markup Language, is the standard language used to
-                                    create and structure content on the web. Learning HTML can seem a bit daunting at
-                                    first, but by breaking it down into simple steps, it’s quite manageable. HTML works
-                                    by using tags to organize content. Each HTML document starts with a basic structure
-                                    that tells a browser how to display the content. <br>
-                                    An HTML document always starts with the  &lt;!DOCTYPE html&gt; 
-                                    declaration. This line tells the browser that the document uses HTML5, the latest
-                                    version of HTML. Following this, every HTML document has opening and closing
-                                     &lt;html&gt;  tags, which wrap the entire content. Inside the
-                                     &lt;html&gt;  tags, there are two essential sections: the
-                                     &lt;head&gt;  and the  &lt;body&gt;  <br>
-                                    The  &lt;head&gt;  section contains information about the document
-                                    that is not displayed on the webpage but is important for the browser and search
-                                    engines. For example, the  &lt;title&gt;  tag inside the
-                                     &lt;head&gt;  sets the title of the webpage, which you see on the
-                                    browser tab. There can also be meta tags, like  &lt;meta
-                                        charset="UTF-8"&gt; , which helps ensure the text is displayed
-                                    correctly. <br>
-                                    The  &lt;body&gt;  section is where the actual content of the webpage
-                                    goes. This includes everything the user sees, like text, images, links, and
-                                    more. Each part of the content is wrapped in HTML tags to give it structure and
-                                    style. <br>
-                                    For Example: <br> <br>
-                                    <img class="accordionPicture" src="assets/images/HTMLExampleII.png"
-                                        alt="Exapmple of HTML">
+                                    CSS classes are a fundamental concept in web development that help you style groups
+                                    of HTML elements efficiently. Think of a class as a label you assign to HTML
+                                    elements so you can apply the same styles to all of them at once. Instead of styling
+                                    each element individually, you can give them the same class name and define the
+                                    style just one time in your CSS file.
+
+                                    For example, if you want several paragraphs and headings to have red text, you can
+                                    add a class attribute to those elements in your HTML like this: &lt;p
+                                    class="red-text"&gt;
+                                    or &lt;h1 class="red-text"&gt; . Then, in your CSS file, you define the styles for
+                                    that
+                                    class by starting with a dot followed by the class name: .red-text { color:
+                                    red; }. This tells the browser to make the text color red for any element
+                                    with the class "red-text".
+
+                                    Classes are very flexible because you can use the same class on different
+                                    types of elements—like paragraphs, headings, or divs—and they will all share
+                                    the same styles. This makes it easier to keep your code organized and to
+                                    make global changes to your site's appearance without editing multiple style
+                                    rules.
+
+                                    In summary, CSS classes allow you to group HTML elements and apply
+                                    consistent styling to them, simplifying the process of designing and
+                                    updating your website's look.
                                 </div>
                             </div>
                         </div>
+                        <!-- Acordion-Item 2 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
-                                    Writing and Organizing HTML Elements
+                                    What are CSS id Selectors?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Once you understand the basic structure of an HTML document, you can start adding
-                                    content using different HTML elements. Elements in HTML are represented by tags,
-                                    which are written between angle brackets, like  &lt;p&gt;  for a
-                                    paragraph or  &lt;h1&gt;  for a heading.
-                                    <br>
-                                    For instance, if you want to add a heading to your webpage, you would use the
-                                     &lt;h1&gt;  tag for the main heading. Subheadings use
-                                     &lt;h2&gt; ,  &lt;h3&gt; , and so on, with
-                                     &lt;h6&gt;  being the smallest heading. A simple example looks like
-                                    this:
-                                    <br>
-                                     &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph
-                                        with some introductory text.&lt;/p&gt; 
-                                    <br>
-                                    In the example above,  &lt;h1&gt;  is a tag that displays a large
-                                    heading, while  &lt;p&gt;  is a tag that creates a paragraph of text.
-                                    HTML elements usually have an opening tag, content, and a closing tag. The
-                                    closing tag looks like the opening tag but with a forward slash (e.g.,
-                                     &lt;/p&gt; ).
-                                    <br>
-                                    HTML also allows you to create lists using  &lt;ul&gt;  for unordered
-                                    (bulleted) lists and  &lt;ol&gt;  for ordered (numbered) lists. Each
-                                    item in a list is wrapped in an  &lt;li&gt;  (list item) tag:
-                                    <br>
-                                     &lt;ul&gt;<br> &nbsp; &lt;li&gt;Item 1&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item
-                                        2&lt;/li&gt;<br> &nbsp; &lt;li&gt;Item 3&lt;/li&gt;<br>&lt;/ul&gt; 
+                                    CSS ID selectors are used to apply unique styling to a single HTML element on a
+                                    webpage. An ID selector is like a unique identifier that you assign to an element,
+                                    allowing you to target it specifically for styling, even if other elements share
+                                    similar classes or types. Unlike CSS classes, which can be used on multiple
+                                    elements, an ID should only be used once per page to ensure it remains unique.
 
-                                    <br>
-                                    Links are created with the  &lt;a&gt;  tag, and images with the
-                                     &lt;img&gt;  tag. Links use the  href  attribute to
-                                    specify the URL, while images use the  src  attribute to specify the
-                                    path to the image file. For example:
-                                    <br>
-                                     &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;<br>&lt;img
-                                        src="image.jpg" alt="Description of image"&gt; 
+                                    To assign an ID, you add the id attribute to an HTML element. For example, &lt;div
+                                    id="main-header"&gt; creates a div element with the ID “main-header.” In your CSS
+                                    file, you can target this element specifically by starting the selector with a
+                                    hash symbol (#) followed by the ID name, like this: #main-header {
+                                    background-color: blue; }. This style rule will only apply to the element with
+                                    the ID "main-header."
 
+                                    ID selectors are especially useful when you need to style one unique element
+                                    differently from others on the page, like a main header, footer, or a specific
+                                    section that requires distinct styling. However, since IDs are unique, they
+                                    should be used sparingly to avoid conflicts and ensure your CSS is easy to
+                                    manage.
+
+                                    In short, CSS ID selectors let you target and style individual elements
+                                    uniquely, making them a powerful tool for customizing specific parts of a
+                                    webpage.
                                 </div>
                             </div>
                         </div>
+                        <!-- Acordion-Item 3 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
-                                    Testing and Viewing Your HTML Code in a Browser
+                                    What are are the limits of Css?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    After writing your HTML, you’ll want to see it in action! Save your file with an
-                                    .html extension (for example, index.html) and open it in a web browser. Most
-                                    browsers, like Chrome, Firefox, or Safari, allow you to view HTML files directly.
-                                    Simply double-click the file, and it should open in your default browser, displaying
-                                    the content you created.
+                                    CSS is a powerful tool for designing web pages, but it has
+                                    certain limitations that can make complex designs and layouts challenging. One major
+                                    limitation of CSS is that it’s primarily a styling language, so it lacks the
+                                    functionality to handle dynamic content or advanced logic. For instance, CSS cannot
+                                    perform calculations or create interactive behaviors directly; for those, JavaScript
+                                    is needed.
 
-                                    It’s important to test and view your code frequently to check if it displays as
-                                    expected. Browsers also have developer tools, accessible by pressing F12 or
-                                    right-clicking on the page and selecting "Inspect." These tools let you examine the
-                                    HTML structure, troubleshoot issues, and experiment with changes.
+                                    Another limitation is layout control. While CSS has evolved with tools like Flexbox
+                                    and Grid to improve layout design, it can still be challenging to create highly
+                                    customized layouts that work consistently across all screen sizes and browsers.
+                                    Additionally, CSS can be difficult to manage on larger projects. When styles become
+                                    complex, with many classes, IDs, and nested elements, CSS files can become lengthy
+                                    and hard to maintain, especially if multiple developers are working on the same
+                                    codebase.
 
-                                    By following these steps, you can begin to understand the structure and syntax of
-                                    HTML. With practice, you’ll be able to create more complex pages, and as you
-                                    progress, you may also want to learn about CSS (Cascading Style Sheets) to style
-                                    your HTML content and make your webpages look more visually appealing.
+                                    CSS also struggles with managing state changes efficiently. While pseudo-classes
+                                    like :hover or :active allow for some interactivity, CSS alone cannot fully respond
+                                    to user actions or changes in data, such as toggling content visibility or updating
+                                    styles based on user input.
+
+                                    In summary, CSS is essential for styling and layout but has limits when it comes to
+                                    dynamic functionality, complex layouts, and scalability in large projects. These
+                                    limitations are why CSS is often used together with JavaScript and other tools to
+                                    create fully interactive, well-designed websites.
                                 </div>
                             </div>
                         </div>
