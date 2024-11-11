@@ -22,6 +22,14 @@ header img{
     color: black;
 }
 
+
+/* Javascript-Section */
+.jsHeader{
+    background-color: var(--mainColor);
+}
+.exampleButton{
+    max-width: 70px;
+}
 /* Main Section */
 .accordion-button{
     color: white;
