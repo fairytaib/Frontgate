@@ -195,30 +195,24 @@
                             <div id="collapseOne" class="accordion-collapse collapse "
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body accordionPictureContainer">
-                                    CSS classes are a fundamental concept in web development that help you style groups
-                                    of HTML elements efficiently. Think of a class as a label you assign to HTML
-                                    elements so you can apply the same styles to all of them at once. Instead of styling
-                                    each element individually, you can give them the same class name and define the
-                                    style just one time in your CSS file.
+                                    <strong>CSS classes</strong> are a fundamental concept in web development that help
+                                    you style groups of HTML elements efficiently. Think of a class as a label you
+                                    assign to HTML elements so you can apply the same styles to all of them at once.
+                                    Instead of styling each element individually, you can give them the same class name
+                                    and define the style just one time in your CSS file. For example, if you want
+                                    several paragraphs and headings to have red text, you can add a class attribute to
+                                    those elements in your HTML like this: <code>&lt;p class="red-text"&gt;</code> or
+                                    <code>&lt;h1 class="red-text"&gt;</code>. Then, in your CSS file, you define the
+                                    styles for that class by starting with a dot followed by the class name:
+                                    <code>.red-text { color: red; }</code>. This tells the browser to make the text
+                                    color red for any element with the class "red-text". Classes are very flexible
+                                    because you can use the same class on different types of elements—like paragraphs,
+                                    headings, or divs—and they will all share the same styles. This makes it easier to
+                                    keep your code organized and to make global changes to your site's appearance
+                                    without editing multiple style rules. In summary, CSS classes allow you to group
+                                    HTML elements and apply consistent styling to them, simplifying the process of
+                                    designing and updating your website's look.
 
-                                    For example, if you want several paragraphs and headings to have red text, you can
-                                    add a class attribute to those elements in your HTML like this: &lt;p
-                                    class="red-text"&gt;
-                                    or &lt;h1 class="red-text"&gt; . Then, in your CSS file, you define the styles for
-                                    that
-                                    class by starting with a dot followed by the class name: .red-text { color:
-                                    red; }. This tells the browser to make the text color red for any element
-                                    with the class "red-text".
-
-                                    Classes are very flexible because you can use the same class on different
-                                    types of elements—like paragraphs, headings, or divs—and they will all share
-                                    the same styles. This makes it easier to keep your code organized and to
-                                    make global changes to your site's appearance without editing multiple style
-                                    rules.
-
-                                    In summary, CSS classes allow you to group HTML elements and apply
-                                    consistent styling to them, simplifying the process of designing and
-                                    updating your website's look.
                                 </div>
                             </div>
                         </div>
@@ -234,28 +228,23 @@
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    CSS ID selectors are used to apply unique styling to a single HTML element on a
-                                    webpage. An ID selector is like a unique identifier that you assign to an element,
-                                    allowing you to target it specifically for styling, even if other elements share
-                                    similar classes or types. Unlike CSS classes, which can be used on multiple
-                                    elements, an ID should only be used once per page to ensure it remains unique.
-
-                                    To assign an ID, you add the id attribute to an HTML element. For example, &lt;div
-                                    id="main-header"&gt; creates a div element with the ID “main-header.” In your CSS
-                                    file, you can target this element specifically by starting the selector with a
-                                    hash symbol (#) followed by the ID name, like this: #main-header {
-                                    background-color: blue; }. This style rule will only apply to the element with
-                                    the ID "main-header."
-
-                                    ID selectors are especially useful when you need to style one unique element
-                                    differently from others on the page, like a main header, footer, or a specific
-                                    section that requires distinct styling. However, since IDs are unique, they
-                                    should be used sparingly to avoid conflicts and ensure your CSS is easy to
-                                    manage.
-
-                                    In short, CSS ID selectors let you target and style individual elements
-                                    uniquely, making them a powerful tool for customizing specific parts of a
-                                    webpage.
+                                    <strong>CSS ID selectors</strong> are used to apply unique styling to a single HTML
+                                    element on a webpage. An ID selector is like a unique identifier that you assign to
+                                    an element, allowing you to target it specifically for styling, even if other
+                                    elements share similar classes or types. Unlike CSS classes, which can be used on
+                                    multiple elements, an ID should only be used once per page to ensure it remains
+                                    unique. To assign an ID, you add the <code>id</code> attribute to an HTML element.
+                                    For example, <code>&lt;div id="main-header"&gt;</code> creates a div element with
+                                    the ID “main-header.” In your CSS file, you can target this element specifically by
+                                    starting the selector with a hash symbol (<code>#</code>) followed by the ID name,
+                                    like this: <code>#main-header { background-color: blue; }</code>. This style rule
+                                    will only apply to the element with the ID "main-header". ID selectors are
+                                    especially useful when you need to style one unique element differently from others
+                                    on the page, like a main header, footer, or a specific section that requires
+                                    distinct styling. However, since IDs are unique, they should be used sparingly to
+                                    avoid conflicts and ensure your CSS is easy to manage. In short, CSS ID selectors
+                                    let you target and style individual elements uniquely, making them a powerful tool
+                                    for customizing specific parts of a webpage.
                                 </div>
                             </div>
                         </div>
@@ -271,27 +260,23 @@
                             <div id="collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    CSS is a powerful tool for designing web pages, but it has
-                                    certain limitations that can make complex designs and layouts challenging. One major
-                                    limitation of CSS is that it’s primarily a styling language, so it lacks the
-                                    functionality to handle dynamic content or advanced logic. For instance, CSS cannot
-                                    perform calculations or create interactive behaviors directly; for those, JavaScript
-                                    is needed.
-
-                                    Another limitation is layout control. While CSS has evolved with tools like Flexbox
-                                    and Grid to improve layout design, it can still be challenging to create highly
-                                    customized layouts that work consistently across all screen sizes and browsers.
-                                    Additionally, CSS can be difficult to manage on larger projects. When styles become
-                                    complex, with many classes, IDs, and nested elements, CSS files can become lengthy
-                                    and hard to maintain, especially if multiple developers are working on the same
-                                    codebase.
-
-                                    CSS also struggles with managing state changes efficiently. While pseudo-classes
-                                    like :hover or :active allow for some interactivity, CSS alone cannot fully respond
-                                    to user actions or changes in data, such as toggling content visibility or updating
-                                    styles based on user input.
-
-                                    In summary, CSS is essential for styling and layout but has limits when it comes to
+                                    <strong>CSS (Cascading Style Sheets)</strong> is a powerful tool for designing web
+                                    pages, but it has certain limitations that can make complex designs and layouts
+                                    challenging. One major limitation of CSS is that it’s primarily a styling language,
+                                    so it lacks the functionality to handle dynamic content or advanced logic. For
+                                    instance, CSS cannot perform calculations or create interactive behaviors directly;
+                                    for those, <strong>JavaScript</strong> is needed. Another limitation is layout
+                                    control. While CSS has evolved with tools like <code>Flexbox</code> and
+                                    <code>Grid</code> to improve layout design, it can still be challenging to create
+                                    highly customized layouts that work consistently across all screen sizes and
+                                    browsers. Additionally, CSS can be difficult to manage on larger projects. When
+                                    styles become complex, with many classes, IDs, and nested elements, CSS files can
+                                    become lengthy and hard to maintain, especially if multiple developers are working
+                                    on the same codebase. CSS also struggles with managing state changes efficiently.
+                                    While pseudo-classes like <code>:hover</code> or <code>:active</code> allow for some
+                                    interactivity, CSS alone cannot fully respond to user actions or changes in data,
+                                    such as toggling content visibility or updating styles based on user input. In
+                                    summary, CSS is essential for styling and layout but has limits when it comes to
                                     dynamic functionality, complex layouts, and scalability in large projects. These
                                     limitations are why CSS is often used together with JavaScript and other tools to
                                     create fully interactive, well-designed websites.
