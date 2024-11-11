@@ -33,6 +33,15 @@ header img{
 }
 
 /* Main Section */
+.CSS-DesignOne{
+    font-family: var(--headingsFont);
+    color: black;
+}
+.CSS-DesignTwo{
+    font-family: var(--textFont);
+    color: black;
+}
+
 .accordion-button{
     color: white;
 }
