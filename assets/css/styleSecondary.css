@@ -28,6 +28,10 @@ header img{
     background-color: var(--mainColor);
 }
 
+#jsSectionOne{
+    background-color: var(--navColor);
+}
+
 /* Main Section */
 .accordion-button{
     color: white;
