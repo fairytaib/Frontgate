@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- NEED TO FILL Keywords OUT -->
+    <meta name="desricption" content="#">
+    <meta name="keywords" content="#">
+    <!-- NEED TO FILL keywords OUT -->
+    <meta name="author" content="Sophjan Moubarrid">
+    <title>Frontgate | Javascript</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My own css -->
+    <!-- General styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- secondary-page specific styling -->
+    <link rel="stylesheet" href="assets/css/styleSecondary.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="index.html"><img src="assets/images/android-chrome-192x192.png"
+                    alt="Frontgate-Logo" id="logoIcon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pe-3" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Links to my Home-page -->
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- Links to my html-page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="html.html">HTML</a>
+                    </li>
+                    <!-- Links to my css-page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="css.html">CSS</a>
+                    </li>
+                    <!-- Links to my javascript-page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript.html">Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://codeinstitute.net/de/" class="nav-link" target="_blank"><button type="button"
+                                class="btn callToAction">Sign Up</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-Section for CSS -->
+    <header style="padding-top: 70px;">
+        <div class="heroTitleSection text-center contrastColorOne pt-5 pb-5 mb-0">
+            <h1>Javascript</h1>
+            <h3>The Brain of Webpages</h3>
+        </div>
+
+
+        <img src="assets/images/CSSExampleII.png" alt="This is how HTML looks like">
+    </header>
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- Why do i use CSS Section -->
+        <section class="container-fluid contrastColorOne">
+            <div class="row text-center pt-5 pb-5">
+                <div class="col-12 col-lg-6 d-flex justify-content-center mt-sm-4">
+                    <h1 class="align-self-lg-center">Why do i use CSS and what can i do with it?</h1>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center flex-column mt-4 mb-4">
+                    <p class="explanation">CSS (Cascading Style Sheets) is used in web development to control the look
+                        and feel of a website, allowing you to style HTML elements in a way that’s visually appealing
+                        and user-friendly. While HTML provides the structure and content, CSS handles how that content
+                        is presented, including colors, fonts, spacing, and layout. With CSS, you can transform a basic
+                        HTML page into a polished and engaging design by specifying exactly how each part of the page
+                        should look.
+
+                        CSS is powerful because it separates content from design, making it easier to update styles
+                        without changing the HTML structure. For example, if you want to change the color of all
+                        headings on a site, you can do it in one place within a CSS file, and it will automatically
+                        apply everywhere.
+
+                        CSS can also create responsive designs, which means you can adjust how your website looks on
+                        different devices like mobile phones, tablets, and desktops. This flexibility is crucial for
+                        creating user-friendly websites that look good on any screen size.
+
+                        In summary, CSS is essential for web development because it allows you to control the visual
+                        style and layout of a webpage, improve user experience, and make your site adaptable to
+                        different devices. It’s the tool that makes websites visually engaging and modern, complementing
+                        the structure provided by HTML.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary align-self-lg-center" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        A Website with style
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">The below part is designed with
+                                        CSS</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>What can CSS do?</h1>
+                                    <p class="CSS-DesignOne">This is just some simple text that we designed but you can
+                                        style anything in your HTML. Be it Buttons, Modals, Pictures, Backgrounds and
+                                        many more</p>
+                                    <p class="CSS-DesignTwo">Even the positions of or the font is editable with CSS.
+                                        There are mony options that you can choose from</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- How do i write CSS Section -->
+        <section class="container-fluid contrastColorTwo">
+            <div class="row text-center">
+                <div class="col-12 mt-sm-4 mt-lg-0 pt-4">
+                    <h1 class="align-self-lg-center mt-lg-3">How do i write CSS?</h1>
+                </div>
+                <div class="col-12 mb-4">
+                    <p class="col-12 pt-5 ps-5 pe-5 text-center explanation">
+                        Inline CSS involves adding styles directly to an HTML element using the
+                        style attribute. For example: <br><br>&lt;p style="color: blue;"&gt; This is blue
+                        text. &lt;/p&gt; <br><br> This makes the paragraph blue. However, inline CSS is typically only
+                        used for small, specific changes, as it can make your code harder to manage.
+                        Internal CSS is placed within the "&lt;style&gt;" tag in the
+                        &lt;head&gt; section of an HTML document. This method is useful if you only
+                        need the styles for a single page. Here’s an example: <br><br>
+                        &lt;style&gt;
+                        p {
+                        color: blue;
+                        }
+                        &lt;/style&gt;<br><br>
+                        External CSS is the most common and efficient way to write CSS, as it keeps
+                        all styles in a separate .css file (e.g., styles.css ). This file
+                        is then linked to the HTML document using a "&lt;link&gt;" tag in the
+                        section, like so: <br><br>
+                        &lt;head&gt;
+                        &lt;link rel="stylesheet" href="styles.css"&gt;
+                        &lt;/head&gt;<br><br>
+                        Inside your CSS file, you create selectors (like p ,
+                        h1 , .classname , #idname ) to target HTML elements and
+                        define their styles. For example:<br><br>
+                        body {
+                        background-color: lightgray;
+                        }<br>
+                        h1{
+                        font-family: sans-serif;
+                        }<br>
+                        p {
+                        color: blue;
+                        font-size: 16px;
+                        }<br><br>
+                        Each style rule has a selector (the HTML element or class you want to
+                        style), followed by property-value pairs inside curly braces
+                        {}, which define what the element should look like. For instance:<br><br>
+                        color: blue;<br><br>
+                        is a rule that sets the text color to blue.
+
+                        Using CSS properly, especially external CSS, makes it easy to style and maintain your
+                        website, as changes in the CSS file automatically update all linked pages. This approach is
+                        key to keeping your web design organized and efficient.
+                    </p>
+                </div>
+                <div class="pb-5">
+                    <div class="accordion ps-3 pe-3 " id="accordionExample">
+                        <!-- Acordion-Item 1 -->
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed contrastColorOne" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    What are CSS classes?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordionPictureContainer">
+                                    CSS classes are a fundamental concept in web development that help you style groups
+                                    of HTML elements efficiently. Think of a class as a label you assign to HTML
+                                    elements so you can apply the same styles to all of them at once. Instead of styling
+                                    each element individually, you can give them the same class name and define the
+                                    style just one time in your CSS file.
+
+                                    For example, if you want several paragraphs and headings to have red text, you can
+                                    add a class attribute to those elements in your HTML like this: &lt;p
+                                    class="red-text"&gt;
+                                    or &lt;h1 class="red-text"&gt; . Then, in your CSS file, you define the styles for
+                                    that
+                                    class by starting with a dot followed by the class name: .red-text { color:
+                                    red; }. This tells the browser to make the text color red for any element
+                                    with the class "red-text".
+
+                                    Classes are very flexible because you can use the same class on different
+                                    types of elements—like paragraphs, headings, or divs—and they will all share
+                                    the same styles. This makes it easier to keep your code organized and to
+                                    make global changes to your site's appearance without editing multiple style
+                                    rules.
+
+                                    In summary, CSS classes allow you to group HTML elements and apply
+                                    consistent styling to them, simplifying the process of designing and
+                                    updating your website's look.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Acordion-Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed contrastColorOne" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    What are CSS id Selectors?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CSS ID selectors are used to apply unique styling to a single HTML element on a
+                                    webpage. An ID selector is like a unique identifier that you assign to an element,
+                                    allowing you to target it specifically for styling, even if other elements share
+                                    similar classes or types. Unlike CSS classes, which can be used on multiple
+                                    elements, an ID should only be used once per page to ensure it remains unique.
+
+                                    To assign an ID, you add the id attribute to an HTML element. For example, &lt;div
+                                    id="main-header"&gt; creates a div element with the ID “main-header.” In your CSS
+                                    file, you can target this element specifically by starting the selector with a
+                                    hash symbol (#) followed by the ID name, like this: #main-header {
+                                    background-color: blue; }. This style rule will only apply to the element with
+                                    the ID "main-header."
+
+                                    ID selectors are especially useful when you need to style one unique element
+                                    differently from others on the page, like a main header, footer, or a specific
+                                    section that requires distinct styling. However, since IDs are unique, they
+                                    should be used sparingly to avoid conflicts and ensure your CSS is easy to
+                                    manage.
+
+                                    In short, CSS ID selectors let you target and style individual elements
+                                    uniquely, making them a powerful tool for customizing specific parts of a
+                                    webpage.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Acordion-Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed contrastColorOne" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What are are the limits of Css?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CSS is a powerful tool for designing web pages, but it has
+                                    certain limitations that can make complex designs and layouts challenging. One major
+                                    limitation of CSS is that it’s primarily a styling language, so it lacks the
+                                    functionality to handle dynamic content or advanced logic. For instance, CSS cannot
+                                    perform calculations or create interactive behaviors directly; for those, JavaScript
+                                    is needed.
+
+                                    Another limitation is layout control. While CSS has evolved with tools like Flexbox
+                                    and Grid to improve layout design, it can still be challenging to create highly
+                                    customized layouts that work consistently across all screen sizes and browsers.
+                                    Additionally, CSS can be difficult to manage on larger projects. When styles become
+                                    complex, with many classes, IDs, and nested elements, CSS files can become lengthy
+                                    and hard to maintain, especially if multiple developers are working on the same
+                                    codebase.
+
+                                    CSS also struggles with managing state changes efficiently. While pseudo-classes
+                                    like :hover or :active allow for some interactivity, CSS alone cannot fully respond
+                                    to user actions or changes in data, such as toggling content visibility or updating
+                                    styles based on user input.
+
+                                    In summary, CSS is essential for styling and layout but has limits when it comes to
+                                    dynamic functionality, complex layouts, and scalability in large projects. These
+                                    limitations are why CSS is often used together with JavaScript and other tools to
+                                    create fully interactive, well-designed websites.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Card Sectio -->
+        <section class="container-fluid contrastColorOne pt-3 pb-3">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
+                    <div class="card">
+                        <img src="assets/images/html.webp" class="card-img-top" alt="HTML-LOGO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">If you are interested in getting a quick overview of HTML, then click
+                                here.</p>
+                            <a href="html.html" class="btn callToAction">Learn more about HTML</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
+                    <div class="card">
+                        <img src="assets/images/css.webp" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">If you want to learn how to style your HTML, learn more about CSS.</p>
+                            <a href="css.html" class="btn btn-primary">Learn more about CSS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
+                    <div class="card">
+                        <img src="assets/images/CodeInstituteLogo.webp" class="card-img-top" alt="HTML-LOGO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Code Institute</h5>
+                            <p class="card-text">If you are interested in getting started, why don't you take a look at
+                                the Webpage of Code Institute.</p>
+                            <a href="https://codeinstitute.net" target="_blank" class="btn callToAction">Start now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer id="contact" class="container-fluid pb-4 pt-3">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center my-4 ">
+                <h2 class="display-5">You want to learn more? - Download our PDF</h2>
+                <p class="mt-4">We send you a complete Roadmap how to start your journy as a Front-End Developer</p>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 text-center mb-4">
+                <form class="row g-3 sharp-corners">
+                    <div class="col-md-4">
+                        <label for="inputFirstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="inputFirstName">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputLastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="inputLastName">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputMail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inputnumbers">
+                    </div>
+
+
+                    <div class="col-12">
+                        <button type="submit" class="btn callToAction">Senden</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
