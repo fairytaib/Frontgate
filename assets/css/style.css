@@ -111,6 +111,9 @@ header *{
 .javascriptBtn{
     background-color: rgb(255, 222, 34);
 }
+.CssBtn{
+    background-color: rgb(107, 193, 247);
+}
 
 /* footer */
 footer{
