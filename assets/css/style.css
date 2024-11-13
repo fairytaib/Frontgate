@@ -115,6 +115,16 @@ header *{
     background-color: rgb(107, 193, 247);
 }
 
+.callToAction:hover, .javascriptBtn:hover, .CssBtn:hover{
+    border: black solid 1px;
+}
+#navbar-Btn:hover{
+    background-color: whitesmoke;
+}
+#hero-Btn:hover{
+    background-color: rgba(255, 255, 255, 0.399);
+}
+
 /* footer */
 footer{
     background-color: var(--footerColor);
