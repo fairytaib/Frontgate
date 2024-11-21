@@ -23,87 +23,93 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand ps-3" href="index.html"><img src="assets/images/android-chrome-192x192.png"
-                    alt="Frontgate-Logo" id="logoIcon"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pe-3" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <!-- Links to my Home-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <!-- Links to my html-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="html-page.html">HTML</a>
-                    </li>
-                    <!-- Links to my css-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="css-page.html">CSS</a>
-                    </li>
-                    <!-- Links to my javascript-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript-page.html">Javascript</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://codeinstitute.net/" target="_blank" class="btn callToAction mb-4 mt-1" id="navbar-Btn" data-bs-target="#exampleModal">
-                            Code Institute
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Header-Section for Javascript -->
-    <header style="padding-top: 70px;" class="jsHeader">
-        <div class="heroTitleSection text-center contrastColorOne pt-5 pb-2 mb-0">
-            <h1>Javascript</h1>
-            <h3>The Brain of Webpages</h3>
-        </div>
-        <div class="container mt-4">
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-6 col-10 mb-3 d-flex justify-content-center">
-                    <button class="btn btn-primary align-self-lg-center main-content-btn">
-                        Button without Javascript (nothing will happen)
-                    </button>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-3" href="index.html"><img src="assets/images/android-chrome-192x192.png"
+                        alt="Frontgate-Logo" id="logoIcon"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-3" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Links to my Home-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <!-- Links to my html-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="html-page.html">HTML</a>
+                        </li>
+                        <!-- Links to my css-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="css-page.html">CSS</a>
+                        </li>
+                        <!-- Links to my javascript-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript-page.html">Javascript</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://codeinstitute.net/" target="_blank" class="btn callToAction mb-4 mt-1"
+                                id="navbar-Btn" data-bs-target="#exampleModal">
+                                Code Institute
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4 col-sm-6 col-10 mb-3 d-flex">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary main-content-btn" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Button with Javascript (something will happen)
-                    </button>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- Hero Section -->
+        <section style="padding-top: 70px;" class="jsHeader">
+            <div class="heroTitleSection text-center contrastColorOne pt-5 pb-2 mb-0">
+                <h1>Javascript</h1>
+                <h3>The Brain of Webpages</h3>
+            </div>
+            <div class="container mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-sm-6 col-10 mb-3 d-flex justify-content-center">
+                        <button class="btn btn-primary align-self-lg-center main-content-btn">
+                            Button without Javascript (nothing will happen)
+                        </button>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-10 mb-3 d-flex">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary main-content-btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Button with Javascript (something will happen)
+                        </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">This is just a part of
-                                        Javascripts might</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body ">
-                                    <h3 class="CSS-DesignOne text-center">This Window opend with Javascript</h3>
-                                    <p class="CSS-DesignTwo text-center">This Modal opend only because of the effect of Javascript. As you have seen with the other button nothing will happen if there is no Javascript embeded within our code</p>
-                                    <p class="CSS-DesignTwo text-center">Javascript does the realy cool interactive stuff for our website. It is definitly worth learning it.</p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">This is just a
+                                            part of
+                                            Javascripts might</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body ">
+                                        <h3 class="CSS-DesignOne text-center">This Window opend with Javascript</h3>
+                                        <p class="CSS-DesignTwo text-center">This Modal opend only because of the effect
+                                            of Javascript. As you have seen with the other button nothing will happen if
+                                            there is no Javascript embeded within our code</p>
+                                        <p class="CSS-DesignTwo text-center">Javascript does the realy cool interactive
+                                            stuff for our website. It is definitly worth learning it.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!-- MAIN SECTION -->
-    <main>
+        </section>
         <!-- Why do i use Javascript Section -->
         <section class="container-fluid contrastColorOne" id="jsSectionOne">
             <div class="row text-center pt-5 pb-5">
@@ -348,7 +354,8 @@
 
 
                     <div class="col-12">
-                        <a href="assets/pdf/Web_Development_Guide.pdf" download="Web_Development_Guide" class="btn callToAction" id="form-button">Send</a>
+                        <a href="assets/pdf/Web_Development_Guide.pdf" download="Web_Development_Guide"
+                            class="btn callToAction" id="form-button">Send</a>
                     </div>
                 </form>
             </div>
