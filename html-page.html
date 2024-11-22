@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- NEED TO FILL Keywords OUT -->
-    <meta name="desricption" content="#">
+    <meta name="description" content="#">
     <meta name="keywords" content="#">
     <!-- NEED TO FILL keywords OUT -->
     <meta name="author" content="Sophjan Moubarrid">
@@ -23,41 +23,45 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand ps-3" href="index.html"><img src="assets/images/android-chrome-192x192.png"
-                    alt="Frontgate-Logo" id="logoIcon"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pe-3" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <!-- Links to my Home-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <!-- Links to my html-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="html-page.html">HTML</a>
-                    </li>
-                    <!-- Links to my css-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="css-page.html">CSS</a>
-                    </li>
-                    <!-- Links to my javascript-page -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript-page.html">Javascript</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://codeinstitute.net/" target="_blank" class="btn callToAction mb-4 mt-1" id="navbar-Btn" data-bs-target="#exampleModal">
-                            Code Institute
-                        </a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-3" href="index.html" aria-label="Homepage">
+                    <img src="assets/images/android-chrome-192x192.png" alt="Frontgate logo" id="logoIcon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-3" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Links to my Home-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html" aria-label="Navigate to Home page">Home</a>
+                        </li>
+                        <!-- Links to my html-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="html-page.html" aria-label="Learn more about HTML">HTML</a>
+                        </li>
+                        <!-- Links to my css-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="css-page.html" aria-label="Learn more about CSS">CSS</a>
+                        </li>
+                        <!-- Links to my javascript-page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript-page.html" aria-label="Learn more about JavaScript">JavaScript</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://codeinstitute.net/" target="_blank" class="btn callToAction mb-4 mt-1"
+                                id="navbar-Btn" data-bs-target="#exampleModal" aria-label="Visit Code Institute website">
+                                Code Institute
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- Header-Section for HTML -->
     <header style="padding-top: 70px;">
         <div class="heroTitleSection text-center contrastColorOne pt-5 pb-5 mb-0">
@@ -65,8 +69,7 @@
             <h3>The Bones of Webpages</h3>
         </div>
 
-
-        <img src="assets/images/HTMLHeroSection.png" alt="This is how HTML looks like">
+        <img src="assets/images/HTMLHeroSection.png" alt="Illustration of HTML structure example">
     </header>
     <!-- MAIN SECTION -->
     <main>
@@ -74,23 +77,19 @@
         <section class="container-fluid contrastColorOne">
             <div class="row text-center pt-5 pb-5">
                 <div class="col-12 col-lg-6 d-flex justify-content-center mt-sm-4">
-                    <h2 class="align-self-lg-center">Why is HTML so important for Web developement?</h2>
+                    <h2 class="align-self-lg-center">Why is HTML so important for Web development?</h2>
                 </div>
                 <div class="col-12 col-lg-6 d-flex justify-content-center flex-column mt-4 mb-4">
                     <p class="explanation">HTML (HyperText Markup Language) is essential to web
                         development because it forms the backbone of every web page. It’s the first layer that gives
                         structure to web content, defining elements like headings, paragraphs, images, links, and more.
-                        HTML
-                        tells the web browser how to display information, making it readable and organized for users.
+                        HTML tells the web browser how to display information, making it readable and organized for users.
                         Without HTML, a web page would just be plain text with no structure or design.
 
                         HTML also plays a crucial role in accessibility and search engine optimization (SEO). By using
-                        HTML
-                        tags properly, developers can make content more accessible to people with disabilities, who may
-                        use
-                        screen readers to navigate the web. Additionally, search engines rely on HTML to understand a
-                        page's
-                        content, which helps improve the site’s visibility in search results.
+                        HTML tags properly, developers can make content more accessible to people with disabilities, who may
+                        use screen readers to navigate the web. Additionally, search engines rely on HTML to understand a
+                        page's content, which helps improve the site’s visibility in search results.
 
                         In summary, HTML is important because it lays the foundation for all other web technologies,
                         enabling web pages to be structured, accessible, and easy to interpret for both users and search
@@ -98,7 +97,7 @@
                     </p>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary align-self-lg-center main-content-btn" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
+                        data-bs-target="#exampleModal" aria-label="Open modal to show example of a webpage without HTML">
                         A Website without HTML
                     </button>
 
@@ -111,7 +110,8 @@
                                     <h2 class="modal-title fs-5 " id="exampleModalLabel">The below part is written
                                         without any HTML</h2>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                        aria-label="Close">
+                                    </button>
                                 </div>
                                 <div class="modal-body">
                                     Why HTML is important
@@ -134,24 +134,19 @@
         <section class="container-fluid contrastColorTwo">
             <div class="row text-center">
                 <div class="col-12 mt-sm-4 mt-lg-0 pt-4">
-                    <h2 class="align-self-lg-center mt-lg-3">How do i write HTML?</h2>
+                    <h2 class="align-self-lg-center mt-lg-3">How do I write HTML?</h2>
                 </div>
                 <div class="col-12 mb-4">
                     <p class="col-12 pt-5 ps-5 pe-5 text-center explanation">
                         To write HTML, you use a text editor, such as Visual Studio Code, Notepad++, or even a simple
                         program like Notepad.
                         HTML files have the extension “.html” and can be opened in any web browser. HTML has a specific
-                        structure and syntax
-                        that organizes content in a way the browser can read and display.
+                        structure and syntax that organizes content in a way the browser can read and display.
 
                         At the core of HTML is the concept of tags. Tags are written within angle brackets, like
-                        &lt;tagname&gt;. Most HTML
-                        elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which
-                        contain
-                        the content between them.
-                        For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a
-                        paragraph
-                        on a web page.
+                        &lt;tagname&gt;. Most HTML elements have an opening tag (e.g., &lt;p&gt;) and a closing tag (e.g., &lt;/p&gt;), which
+                        contain the content between them. For example, &lt;p&gt;Hello, World!&lt;/p&gt; would display the text "Hello, World!" as a
+                        paragraph on a web page.
                     </p>
                 </div>
                 <div class="pb-5">
@@ -160,7 +155,7 @@
                         <div class="accordion-item ">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" aria-label="Expand to learn about the basics of HTML structure">
                                     Understanding the Basics of HTML Structure
                                 </button>
                             </h2>
@@ -191,7 +186,7 @@
                                     style. <br>
                                     For Example: <br> <br>
                                     <img class="accordionPicture" src="assets/images/HTMLExampleII.png"
-                                        alt="Exapmple of HTML">
+                                        alt="Example of HTML structure with basic tags">
                                 </div>
                             </div>
                         </div>
@@ -199,7 +194,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" aria-label="Expand to learn about writing and organizing HTML elements">
                                     Writing and Organizing HTML Elements
                                 </button>
                             </h2>
@@ -249,7 +244,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed contrastColorOne" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" aria-label="Expand to learn about testing and viewing HTML code in a browser">
                                     Testing and Viewing Your HTML Code in a Browser
                                 </button>
                             </h2>
@@ -278,49 +273,47 @@
                 </div>
             </div>
         </section>
-        <!-- Card Sectio -->
+        <!-- Card Section -->
         <section class="container-fluid contrastColorOne pt-3 pb-3">
             <div class="row d-flex justify-content-center">
                 <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
                     <div class="card">
-                        <img src="assets/images/CodeInstituteLogo.webp" class="card-img-top" alt="Code Institute-LOGO">
+                        <img src="assets/images/CodeInstituteLogo.webp" class="card-img-top" alt="Code Institute logo">
                         <div class="card-body text-center">
                             <h5 class="card-title">Code Institute</h5>
                             <p class="card-text">If you are interested in getting started, why don't you take a look at the Webpage of Code Institute.</p>
-                            <a href="https://codeinstitute.net" target="_blank" class="btn callToAction">Start now</a>
+                            <a href="https://codeinstitute.net" target="_blank" class="btn callToAction" aria-label="Visit Code Institute to start your learning journey">Start now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
                     <div class="card">
-                        <img src="assets/images/css.webp" class="card-img-top" alt="CSS-Logo">
+                        <img src="assets/images/css.webp" class="card-img-top" alt="CSS logo representing web styling">
                         <div class="card-body text-center">
                             <h5 class="card-title">CSS</h5>
                             <p class="card-text">If you want to learn how to style your HTML, learn more about CSS.</p>
-                            <a href="css-page.html" class="btn CssBtn">Learn more about CSS</a>
+                            <a href="css-page.html" class="btn CssBtn" aria-label="Learn more about CSS for styling web pages">Learn more about CSS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pt-3">
                     <div class="card">
-                        <img src="assets/images/javascript.webp" class="card-img-top" alt="Javascript-Logo">
+                        <img src="assets/images/javascript.webp" class="card-img-top" alt="JavaScript logo representing web interactivity">
                         <div class="card-body text-center">
                             <h5 class="card-title">JavaScript</h5>
-                            <p class="card-text">You have the basics of HTML and CSS down? Learn more about Javascript.
-                            </p>
-                            <a href="javascript-page.html" class="btn javascriptBtn">Learn more about Javascript</a>
+                            <p class="card-text">You have the basics of HTML and CSS down? Learn more about JavaScript.</p>
+                            <a href="javascript-page.html" class="btn javascriptBtn" aria-label="Learn more about JavaScript for adding interactivity to web pages">Learn more about JavaScript</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
     <footer id="contact" class="container-fluid pb-4 pt-3">
         <div class="row justify-content-center">
             <div class="col-12 text-center my-4 ">
                 <h2 class="display-5">You want to learn more? - Download our PDF</h2>
-                <p class="mt-4">We send you a complete Roadmap how to start your journy as a Front-End Developer</p>
+                <p class="mt-4">We send you a complete Roadmap how to start your journey as a Front-End Developer</p>
             </div>
             <div class="col-12 col-md-10 col-lg-8 text-center mb-4">
                 <form class="row g-3 sharp-corners">
@@ -336,14 +329,11 @@
                         <label for="inputMail" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="inputMail">
                     </div>
-
-
                     <div class="col-12">
-                        <a href="assets/pdf/Web_Development_Guide.pdf" download="Web_Development_Guide" class="btn callToAction" id="form-button">Send</a>
+                        <a href="assets/pdf/Web_Development_Guide.pdf" download="Web_Development_Guide" class="btn callToAction" id="form-button" aria-label="Download Web Development Guide PDF">Send</a>
                     </div>
                 </form>
             </div>
-
         </div>
     </footer>
     <!-- Bootstrap JavaScript -->
@@ -351,3 +341,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
+</html>
