@@ -25,7 +25,6 @@ p, .nav-link{
     font-family: var(--textFont);
     color: white;
 }
-
 .callToAction{
     color: var(--mainCallToAction);
     background-color: var(--secondCallToAction);
@@ -39,11 +38,9 @@ p, .nav-link{
     background-color: var(--heroTextColor);
 }
 
-
-
 /* Specific Styling */
 
-/* navbar */
+/* general navbar */
 nav{
     background-color: var(--navColor);
 }
@@ -52,7 +49,6 @@ nav{
     width: 60px;
     border: white solid 1px;
 }
-
 .nav-link{
     font-size: 1.3rem;
 }
@@ -60,30 +56,25 @@ nav{
     font-size: 1.3rem;
     color: rgb(255, 142, 50);
 }
-
 #navbar-Btn:hover{
     background-color: whitesmoke;
 }
-
-
-/* Hamburger */
+/* general Hamburger Navbar*/
 .navbar-toggler{
     background-color: white;
 }
-/* Hamburger */
 
-/* header-section */
-
-
-header *{
+/* general Hero-Main-Section */
+.hero-section *{
     color: white;
 }
+/* Index Hero-section */
 #hero{
     position: relative;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.5);
 }
-/* background-video */
+/* background-video index-page*/
 .videoBg{
     position: absolute;
     top: 50%;
@@ -93,21 +84,33 @@ header *{
     min-width: 100%;
     min-height: 100%;
 }
+/* picture-Backgrounds html- and css-page */
+.header-img{
+    width: 100vw;
+}
+/* Modals html- and javascript-page*/
+.modal-title{
+    color: black;
+}
+/* Javascript-Page-Section */
+.jsHeader{
+    background-color: var(--mainColor);
+}
 
+#jsSectionOne{
+    background-color: var(--navColor);
+}
 
-/* Main-Section */
-
+/* General Main-Section*/
 .explanation{
     font-size: 1rem;
     letter-spacing: 2px;
 }
-
 .card{
     width: 24rem;
     border: none;
     box-shadow: none;
 }
-
 .card-text{
     color: var(--mainColor);
 }
@@ -121,15 +124,28 @@ header *{
 .CssBtn{
     background-color: rgb(107, 193, 247);
 }
-
-
 .callToAction:hover, .javascriptBtn:hover, .CssBtn:hover{
     border: black solid 1px;
 }
-
 #hero-Btn:hover{
     background-color: rgba(255, 255, 255, 0.399);
 }
+.CSS-DesignOne{
+    font-family: var(--headingsFont);
+    color: black;
+}
+.CSS-DesignTwo{
+    font-family: var(--textFont);
+    color: black;
+}
+
+.accordion-button{
+    color: white;
+}
+
+.accordionPicture{
+    width: 70vw;
+} 
 
 /* footer */
 footer{
@@ -152,6 +168,9 @@ footer{
 @media only screen and (max-width: 768px){
     .card{
         width: 32rem;
+    }
+    .accordionPicture{
+        width: 90vw;
     }
 }
 
