@@ -14,7 +14,7 @@
     --secondCallToAction: #FF5722;
 }
 /* Header Section */
-header img{
+.header-img{
     width: 100vw;
 }
 
