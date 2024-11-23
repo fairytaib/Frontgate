@@ -188,24 +188,24 @@
                 <p class="mt-4">We send you a complete Roadmap how to start your journey as a Front-End Developer</p>
             </div>
             <div class="col-12 col-md-10 col-lg-8 text-center mb-4">
-                <form class="row g-3 sharp-corners">
+                <form class="row g-3 sharp-corners" method="POST" action="thank-you-page.html">
                     <div class="col-md-4">
                         <label for="inputFirstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="inputFirstName">
+                        <input type="text" required class="form-control" id="inputFirstName" name="inputFirstName">
                     </div>
                     <div class="col-md-4">
                         <label for="inputLastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="inputLastName">
+                        <input type="text" required class="form-control" id="inputLastName" name="inputLastName">
                     </div>
                     <div class="col-md-4">
                         <label for="inputMail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="inputMail">
+                        <input type="email" required class="form-control" id="inputMail" name="inputMail">
                     </div>
 
                     <div class="col-12">
-                        <a href="assets/pdf/Web_Development_Guide.pdf" download="Web_Development_Guide"
+                        <button type="submit"
                             class="btn callToAction" id="form-button"
-                            aria-label="Download Web Development Guide PDF">Send</a>
+                            aria-label="Visit my thank you page">Submit</button>
                     </div>
                 </form>
             </div>
