@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Creating changable Root-Elements */
-:root{
+:root {
     --headingsFont: "Orbitron", sans-serif;
     --textFont: "Roboto", sans-serif;
     --bodyColor: whitesmoke;
@@ -13,69 +13,87 @@
     --mainCallToAction: #0D1B2A;
     --secondCallToAction: #FF5722;
 }
+
 /* General Styling */
-body{
+body {
     background-color: var(--bodyColor);
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--headingsFont);
     color: white;
 }
-p, .nav-link{
+
+p,
+.nav-link {
     font-family: var(--textFont);
     color: white;
 }
-.callToAction{
+
+.callToAction {
     color: var(--mainCallToAction);
     background-color: var(--secondCallToAction);
-    
+
 }
-.contrastColorOne{
+
+.contrastColorOne {
     background-color: var(--mainColor);
 }
 
-.contrastColorTwo{
+.contrastColorTwo {
     background-color: var(--heroTextColor);
 }
 
 /* Specific Styling */
 
 /* general navbar */
-nav{
+nav {
     background-color: var(--navColor);
 }
-#logoIcon{
+
+#logoIcon {
     color: white;
     width: 60px;
     border: white solid 1px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.3rem;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     font-size: 1.3rem;
     color: rgb(255, 142, 50);
 }
-#navbar-Btn:hover{
+
+#navbar-Btn:hover {
     background-color: whitesmoke;
 }
+
 /* general Hamburger Navbar*/
-.navbar-toggler{
+.navbar-toggler {
     background-color: white;
 }
 
 /* general Hero-Main-Section */
-.hero-section *{
+.hero-section * {
     color: white;
 }
+
 /* Index Hero-section */
-#hero{
+#hero {
     position: relative;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.5);
 }
+
 /* background-video index-page*/
-.videoBg{
+.videoBg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,105 +102,122 @@ nav{
     min-width: 100%;
     min-height: 100%;
 }
+
 /* picture-Backgrounds html- and css-page */
-.header-img{
+.header-img {
     width: 100vw;
 }
+
 /* Modals html- and javascript-page*/
-.modal-title{
+.modal-title {
     color: black;
 }
+
 /* Javascript-Page-Section */
-.jsHeader{
+.jsHeader {
     background-color: var(--mainColor);
 }
 
-#jsSectionOne{
+#jsSectionOne {
     background-color: var(--navColor);
 }
 
 /* General Main-Section*/
-.explanation{
+.explanation {
     font-size: 1rem;
     letter-spacing: 2px;
 }
-.card{
+
+.card {
     width: 24rem;
     border: none;
     box-shadow: none;
 }
-.card-text{
+
+.card-text {
     color: var(--mainColor);
 }
-.main-content-btn:hover{
+
+.main-content-btn:hover {
     color: black;
     background-color: white;
 }
-.javascriptBtn{
+
+.javascriptBtn {
     background-color: rgb(255, 222, 34);
 }
-.CssBtn{
+
+.CssBtn {
     background-color: rgb(107, 193, 247);
 }
-.callToAction:hover, .javascriptBtn:hover, .CssBtn:hover{
+
+.callToAction:hover,
+.javascriptBtn:hover,
+.CssBtn:hover {
     border: black solid 1px;
 }
-#hero-Btn:hover{
+
+#hero-Btn:hover {
     background-color: white;
     color: black;
 }
-.CSS-DesignOne{
+
+.CSS-DesignOne {
     font-family: var(--headingsFont);
     color: black;
 }
-.CSS-DesignTwo{
+
+.CSS-DesignTwo {
     font-family: var(--textFont);
     color: black;
 }
 
-.accordion-button{
+.accordion-button {
     color: white;
 }
 
-.accordionPicture{
+.accordionPicture {
     width: 70vw;
-} 
-.accordion-button.collapsed::after { 
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e"); 
 }
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+}
+
 /* .accordion-button.contrastColorOne::after { 
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e"); 
 } */
 /* footer */
-footer{
+footer {
     background-color: var(--footerColor);
     color: white;
     font-family: var(--textFont);
 }
 
-#form-button:hover{
+#form-button:hover {
     background-color: white;
     color: black;
 }
 
-@media only screen and (max-width: 576px){
-    #logoIcon{
+@media only screen and (max-width: 576px) {
+    #logoIcon {
         width: 40px;
     }
-    
+
 }
-@media only screen and (max-width: 768px){
-    .card{
+
+@media only screen and (max-width: 768px) {
+    .card {
         width: 32rem;
     }
-    .accordionPicture{
+
+    .accordionPicture {
         width: 90vw;
     }
 }
 
-@media only screen and (min-width: 1200px){
-    .card{
+@media only screen and (min-width: 1200px) {
+    .card {
         width: 28rem;
     }
 }
-    
