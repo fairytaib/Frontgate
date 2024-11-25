@@ -3,20 +3,20 @@
 
 /* Creating changable Root-Elements */
 :root {
-    --headingsFont: "Orbitron", sans-serif;
-    --textFont: "Roboto", sans-serif;
-    --bodyColor: whitesmoke;
-    --navColor: #1F2933;
-    --heroTextColor: #505b68;
-    --mainColor: #2C3E50;
-    --footerColor: #0D1B2A;
-    --mainCallToAction: #0D1B2A;
-    --secondCallToAction: #FF5722;
+    --headings-font: "Orbitron", sans-serif;
+    --text-font: "Roboto", sans-serif;
+    --body-color: whitesmoke;
+    --nav-color: #1F2933;
+    --hero-text-color: #505b68;
+    --main-color: #2C3E50;
+    --footer-color: #0D1B2A;
+    --main-call-to-action: #0D1B2A;
+    --second-call-to-action: #FF5722;
 }
 
 /* General Styling */
 body {
-    background-color: var(--bodyColor);
+    background-color: var(--body-color);
     overflow-x: hidden;
 }
 
@@ -26,38 +26,38 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--headingsFont);
+    font-family: var(--headings-font);
     color: white;
 }
 
 p,
 .nav-link {
-    font-family: var(--textFont);
+    font-family: var(--text-font);
     color: white;
 }
 
-.callToAction {
-    color: var(--mainCallToAction);
-    background-color: var(--secondCallToAction);
+.call-to-action {
+    color: var(--main-call-to-action);
+    background-color: var(--second-call-to-action);
 
 }
 
-.contrastColorOne {
-    background-color: var(--mainColor);
+.contrast-color-one {
+    background-color: var(--main-color);
 }
 
-.contrastColorTwo {
-    background-color: var(--heroTextColor);
+.contrast-color-two {
+    background-color: var(--hero-text-color);
 }
 
 /* Specific Styling */
 
 /* general navbar */
 nav {
-    background-color: var(--navColor);
+    background-color: var(--nav-color);
 }
 
-#logoIcon {
+#logo-icon {
     color: white;
     width: 60px;
     border: white solid 1px;
@@ -72,7 +72,7 @@ nav {
     color: rgb(255, 142, 50);
 }
 
-#navbar-Btn:hover {
+#navbar-btn:hover {
     background-color: whitesmoke;
 }
 
@@ -94,7 +94,7 @@ nav {
 }
 
 /* background-video index-page*/
-.videoBg {
+.video-bg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -115,12 +115,12 @@ nav {
 }
 
 /* Javascript-Page-Section */
-.jsHeader {
-    background-color: var(--mainColor);
+.js-header {
+    background-color: var(--main-color);
 }
 
-#jsSectionOne {
-    background-color: var(--navColor);
+#js-section-one {
+    background-color: var(--nav-color);
 }
 
 /* General Main-Section*/
@@ -136,7 +136,7 @@ nav {
 }
 
 .card-text {
-    color: var(--mainColor);
+    color: var(--main-color);
 }
 
 .main-content-btn:hover {
@@ -144,17 +144,17 @@ nav {
     background-color: white;
 }
 
-.javascriptBtn {
+.javascript-btn {
     background-color: rgb(255, 222, 34);
 }
 
-.CssBtn {
+.css-btn {
     background-color: rgb(107, 193, 247);
 }
 
-.callToAction:hover,
-.javascriptBtn:hover,
-.CssBtn:hover {
+.call-to-action:hover,
+.javascript-btn:hover,
+.css-btn:hover {
     border: black solid 1px;
 }
 
@@ -163,13 +163,13 @@ nav {
     color: black;
 }
 
-.CSS-DesignOne {
-    font-family: var(--headingsFont);
+.css-design-one {
+    font-family: var(--headings-font);
     color: black;
 }
 
-.CSS-DesignTwo {
-    font-family: var(--textFont);
+.css-design-two {
+    font-family: var(--text-font);
     color: black;
 }
 
@@ -177,7 +177,7 @@ nav {
     color: white;
 }
 
-.accordionPicture {
+.accordion-picture {
     width: 70vw;
 }
 
@@ -187,9 +187,9 @@ nav {
 
 /* footer */
 footer {
-    background-color: var(--footerColor);
+    background-color: var(--footer-color);
     color: white;
-    font-family: var(--textFont);
+    font-family: var(--text-font);
 }
 
 #form-button:hover {
@@ -198,7 +198,7 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
-    #logoIcon {
+    #logo-icon {
         width: 40px;
     }
 
@@ -209,7 +209,7 @@ footer {
         width: 32rem;
     }
 
-    .accordionPicture {
+    .accordion-picture {
         width: 90vw;
     }
 }
