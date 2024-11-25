@@ -17,6 +17,7 @@
 /* General Styling */
 body {
     background-color: var(--bodyColor);
+    overflow-x: hidden;
 }
 
 h1,
