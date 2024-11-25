@@ -2,9 +2,9 @@
 [Live Version](https://fairytaib.github.io/Portfolio_1/)
 
 
-![Home page view](./readme-pictures/Homepage.png)
-![Home page view](./readme-pictures/HomepageII.png)
-![Home page view](./readme-pictures/HomepageIII.png)
+![Home page view](./assets/readme_pictures/Homepage.png)
+![Home page view](./assets/readme_pictures/HomepageII.png)
+![Home page view](./assets/readme_pictures/HomepageIII.png)
 
 ## Description
 Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them.
