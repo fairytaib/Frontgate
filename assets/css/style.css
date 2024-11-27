@@ -105,9 +105,28 @@ nav {
 }
 
 /* picture-Backgrounds html- and css-page */
-.header-img {
-    width: 100vw;
+.img-container#css-example-picture {
+    background-image: url(../images/css-example.png);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.img-container#html-example-picture {
+    background-image: url(../images/html-example-hero-section.png);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Modals html- and javascript-page*/
 .modal-title {
@@ -212,6 +231,8 @@ footer {
     .accordion-picture {
         width: 90vw;
     }
+
+
 }
 
 @media only screen and (min-width: 1200px) {
