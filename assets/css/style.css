@@ -82,7 +82,7 @@ nav {
 }
 
 /* general Hero-Main-Section */
-.hero-section * {
+.hero-section {
     color: white;
     padding-top: 70px;
 }
@@ -102,7 +102,7 @@ nav {
     transform: translate(-50%, -50%);
     z-index: -1;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 30vh;
 }
 
 /* picture-Backgrounds html- and css-page */
