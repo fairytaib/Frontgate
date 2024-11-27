@@ -110,7 +110,7 @@ nav {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 20vh;
+    height: 25vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,10 +120,10 @@ nav {
     background-image: url(../images/html-example-hero-section.png);
     position: relative;
     width: 100%;
-    overflow: hidden;
-    height: 20vh;
+    height: 25vh;
+    overflow: none;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
