@@ -230,6 +230,10 @@ footer {
         padding-top: 50px;
     }
 
+    .accordion-picture {
+        height: 30vh;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -238,7 +242,7 @@ footer {
     }
 
     .accordion-picture {
-        width: 90vw;
+        width: 80vw;
     }
 
 
