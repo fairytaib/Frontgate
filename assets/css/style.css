@@ -222,8 +222,8 @@ footer {
         width: 40px;
     }
 
-    .hero-section * {
-        padding-top: 50px;
+    .hero-section {
+        padding-top: 40px;
     }
 
 }
