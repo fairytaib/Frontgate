@@ -84,6 +84,7 @@ nav {
 /* general Hero-Main-Section */
 .hero-section * {
     color: white;
+    padding-top: 70px;
 }
 
 /* Index Hero-section */
@@ -219,6 +220,10 @@ footer {
 @media only screen and (max-width: 576px) {
     #logo-icon {
         width: 40px;
+    }
+
+    .hero-section * {
+        padding-top: 50px;
     }
 
 }
