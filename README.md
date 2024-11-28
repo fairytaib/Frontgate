@@ -1,10 +1,11 @@
 # Frontgate
-[Live Version](https://fairytaib.github.io/Portfolio_1/)
 
+![Home page view](./readme_pictures/homepage.png)
+![Home page view](./readme_pictures/homepage-two.png)
+![Home page view](./readme_pictures/homepage-three.png)
+![Home page view](./readme_pictures/all-devices.png)
 
-![Home page view](./assets/readme_pictures/homepage.png)
-![Home page view](./assets/readme_pictures/homepage-two.png)
-![Home page view](./assets/readme_pictures/homepage-three.png)
+This is the [Live Version](https://fairytaib.github.io/Portfolio_1/)
 
 ## Description
 Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them.
@@ -13,6 +14,11 @@ Frontgate is a website designed to provide a brief and engaging overview of web 
 
 ### Homepage
 - **Navbar**: Includes navigation links to other sections of the site and a Call to Action (CTA) button for sign-up.
+On Desktop the Navigation looks like this:
+![Homepage navigabtion](./readme_pictures/navigation-screenshot.png)
+And on smaller devices, there is a Hamburger-Navigationbar:
+![Navigation on smaller screensizes](./readme_pictures/navbar-hamburger-screenshot.png)
+
 - **Hero Section**: Features a call-to-action link and a video background to engage users.
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
 - **PDF Download Option**: Allows users to download a PDF roadmap for starting their journey in front-end development.
