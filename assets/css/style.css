@@ -94,6 +94,14 @@ nav {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.hero-intro-div {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-intro-text {
+    font-size: 1.2rem;
+}
+
 /* background-video index-page*/
 .video-bg {
     position: absolute;
