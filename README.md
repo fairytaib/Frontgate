@@ -1,23 +1,25 @@
 # Frontgate
 
-![Home page view](./readme_pictures/homepage.png)
-![Home page view](./readme_pictures/homepage-two.png)
-![Home page view](./readme_pictures/homepage-three.png)
-![Home page view](./readme_pictures/all-devices.png)
-
-This is the [Live Version](https://fairytaib.github.io/Frontgate/)
+![Home page view](./readme_pictures/intro-section/all-devices.png)
 
 ## Description
 Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them.
+![Home page view](./readme_pictures/intro-section/homepage.png)
+![Home page view](./readme_pictures/intro-section/homepage-two.png)
+![Home page view](./readme_pictures/intro-section/homepage-three.png)
+
+This is the [Live Version](https://fairytaib.github.io/Frontgate/)
+
+
 
 ## Features
 
 ### Homepage
 - **Navbar**: Includes navigation links to other sections of the site and a Call to Action (CTA) button for sign-up.
 On Desktop the Navigation looks like this:
-![Homepage navigabtion](./readme_pictures/navigation-screenshot.png)
+![Homepage navigabtion](./readme_pictures/intro-section/navigation-screenshot.png)
 And on smaller devices, there is a Hamburger-Navigationbar:
-![Navigation on smaller screensizes](./readme_pictures/navbar-hamburger-screenshot.png)
+![Navigation on smaller screensizes](./readme_pictures/intro-section/navbar-hamburger-screenshot.png)
 
 - **Hero Section**: Features a call-to-action link and a video background to engage users.
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
@@ -88,6 +90,22 @@ If you wish to create a local copy of this project, follow these steps:
 
 ## Design and User Experience
 The design emphasizes a futuristic, technical aesthetic to resonate with the web development theme. Semantic HTML and a simple color scheme ensure clarity and focus, while a modern, futuristic font reinforces the theme. The overall layout and structure support easy navigation and a smooth user journey.
+
+## Color Scheme
+
+![Color Scheme](./readme_pictures/color-scheme/color-scheme.png)
+
+The design of the website incorporates the following color scheme to ensure a modern, visually appealing, and user-focused experience:
+
+### Colors Used
+
+1. **Gunmetal (#1F2933)**: Used for the navbar and some background sections to provide a sleek, dark tone that conveys professionalism and modernity.
+2. **Charcoal (#2C3E50)**: Utilized in main content sections to create a clear, unobtrusive background that allows text and visuals to stand out.
+3. **Payne's Gray (#505B68)**: Employed as an accent background to create variation between sections while maintaining cohesion in the overall design.
+4. **Rich Black (#0D1B2A)**: Applied in the footer to provide a strong, grounding element at the bottom of the page.
+5. **Giants Orange (#FF5722)**: Exclusively used for Call-to-Action (CTA) buttons to draw attention and encourage user interaction.
+
+This color scheme creates a balance between usability, aesthetics, and purpose, helping to engage users while guiding their attention toward key interactive elements like the CTA buttons.
 
 ## Testing
 - **Responsiveness**: All buttons and links were tested for responsiveness on various screen sizes and devices.
