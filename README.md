@@ -5,7 +5,7 @@
 ![Home page view](./readme_pictures/homepage-three.png)
 ![Home page view](./readme_pictures/all-devices.png)
 
-This is the [Live Version](https://fairytaib.github.io/Portfolio_1/)
+This is the [Live Version](https://fairytaib.github.io/Frontgate/)
 
 ## Description
 Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them.
@@ -56,8 +56,30 @@ And on smaller devices, there is a Hamburger-Navigationbar:
   - Background Video Tutorial: [Kevin Powell - How to Create a Background Video](https://www.youtube.com/watch?v=RIDA6elhmBU)
   - PDF Download Button: [Stack Overflow](https://stackoverflow.com)
 
-## Installation and Usage
-This is a static website hosted on GitHub Pages. To view the site, simply visit the [GitHub Page link](). To view the site locally, clone the repository and open `index.html` in any web browser.
+## Deployment and Local Deployment
+
+### Deployment to GitHub Pages
+The site was deployed to GitHub Pages. Follow these steps to deploy the project yourself:
+
+1. Navigate to the **Settings** tab in your GitHub repository.
+2. Scroll down to the **Pages** section.
+3. From the **Source** drop-down menu, select the `Main Branch` (or your default branch) and click "Save".
+4. The page will automatically refresh, and you will see a ribbon at the top indicating the successful deployment.
+5. You can now access your live site via the provided link.
+
+The live link for this project can be found [here](https://fairytaib.github.io/Frontgate/).
+
+---
+
+### Local Deployment
+If you wish to create a local copy of this project, follow these steps:
+
+1. **Clone the Repository**:
+  Open your terminal or command prompt, and type the following command:
+    ```bash
+    git clone https://github.com/fairytaib/Frontgate.git
+
+
 
 ## Design and User Experience
 The design emphasizes a futuristic, technical aesthetic to resonate with the web development theme. Semantic HTML and a simple color scheme ensure clarity and focus, while a modern, futuristic font reinforces the theme. The overall layout and structure support easy navigation and a smooth user journey.
