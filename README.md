@@ -124,6 +124,33 @@ The design of the website incorporates the following color scheme to ensure a mo
 
 This color scheme creates a balance between usability, aesthetics, and purpose, helping to engage users while guiding their attention toward key interactive elements like the CTA buttons.
 
+## Typography
+
+The typography of the website was chosen to enhance readability while maintaining a modern and futuristic design aesthetic. Two complementary fonts from Google Fonts were used:
+
+### Fonts
+1. **Orbitron**:
+![Orbitron Font](./readme_pictures/typographie/orbitron.png)
+   - Used for headings and titles across the website.
+   - A futuristic, geometric font that aligns with the technical and modern theme of the site.
+   - Creates a strong visual impact, drawing attention to important sections and maintaining a sleek aesthetic.
+   
+
+2. **Roboto**:
+  ![Orbitron Font](./readme_pictures/typographie/roboto.png)
+   - Used for body text and paragraph content.
+   - A clean, sans-serif font that ensures high readability, even for long sections of text.
+   - Complements Orbitron by providing a balance between modernity and legibility.
+
+### Font Usage
+- **Headings**: Orbitron is used for all heading elements (`h1`, `h2`, `h3`, etc.), giving the site a consistent and bold structure.
+- **Body Text**: Roboto is used for paragraphs, navigation links, and other textual content to ensure readability across devices.
+- **Call-to-Action Buttons**: Both fonts are utilized strategically to make buttons and links stand out while staying consistent with the overall theme.
+
+### Rationale
+The combination of these fonts creates a futuristic and professional look while maintaining usability. The contrast between the bold headings and clean body text ensures that the content hierarchy is clear, helping users navigate the site effectively.
+
+
 ## Testing
 - **Responsiveness**: All buttons and links were tested for responsiveness on various screen sizes and devices.
 - **Validation**: The HTML and CSS have been validated using the W3C Validator to ensure compliance.
