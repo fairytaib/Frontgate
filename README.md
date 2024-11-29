@@ -1,4 +1,5 @@
-# Frontgate
+
+# *Frontgate*
 
 ![Home page view](./readme_pictures/intro-section/all-devices.png)
 
@@ -12,14 +13,22 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
 
 
 
+
 ## Features
 
-### Homepage
-- **Navbar**: Includes navigation links to other sections of the site and a Call to Action (CTA) button for sign-up.
-On Desktop the Navigation looks like this:
-![Homepage navigabtion](./readme_pictures/intro-section/navigation-screenshot.png)
-And on smaller devices, there is a Hamburger-Navigationbar:
-![Navigation on smaller screensizes](./readme_pictures/intro-section/navbar-hamburger-screenshot.png)
+### Navbar
+- Positioned at the top of the page.
+- Includes a logo on the left and navigation links on the right.
+- Links include:
+  - **Home**: Leads to the homepage with an overview of web development.
+  - **HTML, CSS, JavaScript**: Leads to pages covering each technology.
+- Responsive design:
+  - On smaller screens, navigation collapses into a hamburger menu.
+  ![NavBar Desktop](./readme_pictures/intro-section/navbar-hamburger-screenshot.png)
+
+  - On larger screens, it expands horizontally.
+  ![NavBar Mobile](./readme_pictures/intro-section/navigation-screenshot.png)
+  
 
 - **Hero Section**: Features a call-to-action link and a video background to engage users.
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
