@@ -91,6 +91,23 @@ If you wish to create a local copy of this project, follow these steps:
 ## Design and User Experience
 The design emphasizes a futuristic, technical aesthetic to resonate with the web development theme. Semantic HTML and a simple color scheme ensure clarity and focus, while a modern, futuristic font reinforces the theme. The overall layout and structure support easy navigation and a smooth user journey.
 
+## User Stories
+
+### First Time Visitors
+* **As a first-time visitor**, I want to quickly understand the purpose of the website, so that I can decide if the content is relevant to me.
+* **As a first-time visitor**, I want a simple and intuitive navigation system, so that I can easily explore the content without confusion.
+* **As a first-time visitor**, I want to see engaging and visually appealing elements like a video background and clear CTAs, so that I feel encouraged to explore more about web development.
+
+### Returning Visitors
+* **As a returning visitor**, I want to easily access specific sections (like HTML, CSS, or JavaScript), so that I can focus on the area I’m currently learning.
+* **As a returning visitor**, I want a clear and prominent sign-up button, so that I can explore opportunities for further education when I'm ready.
+
+### Frequent Visitors
+7. **As a frequent visitor**, I want to see updated content or new features added over time, so that I feel motivated to keep returning to the site.
+8. **As a frequent visitor**, I want a responsive and consistently smooth experience on any device, so that I can use the site on both desktop and mobile.
+9. **As a frequent visitor**, I want quick access to Call-to-Action buttons, so that I can take action without unnecessary steps.
+
+
 ## Color Scheme
 
 ![Color Scheme](./readme_pictures/color-scheme/color-scheme.png)
