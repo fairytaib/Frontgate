@@ -156,6 +156,12 @@ The combination of these fonts creates a futuristic and professional look while 
 - **Validation**: The HTML and CSS have been validated using the W3C Validator to ensure compliance.
 - **Mentoring and Tutor Feedback**: Design and functionality were reviewed by a mentor and a tutor for improvements.
 
+## Disclaimer
+
+- The contact information provided in the footer is not real and is included only as placeholder content for demonstration purposes.
+- The reference to Code Institute is purely for educational and project purposes. Code Institute and its materials are copyright protected and are not affiliated with this project. All rights belong to their respective owners.
+
+
 ## Future Enhancements
 Future improvements are not currently planned but will be considered based on user feedback.
 
