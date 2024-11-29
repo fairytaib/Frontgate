@@ -95,11 +95,6 @@ If you wish to create a local copy of this project, follow these steps:
     ```bash
     git clone https://github.com/fairytaib/Frontgate.git
 
-
-
-## Design and User Experience
-The design emphasizes a futuristic, technical aesthetic to resonate with the web development theme. Semantic HTML and a simple color scheme ensure clarity and focus, while a modern, futuristic font reinforces the theme. The overall layout and structure support easy navigation and a smooth user journey.
-
 ## User Stories
 
 ### First Time Visitors
@@ -116,14 +111,16 @@ The design emphasizes a futuristic, technical aesthetic to resonate with the web
 8. **As a frequent visitor**, I want a responsive and consistently smooth experience on any device, so that I can use the site on both desktop and mobile.
 9. **As a frequent visitor**, I want quick access to Call-to-Action buttons, so that I can take action without unnecessary steps.
 
+## Design and User Experience
+The design emphasizes a futuristic, technical aesthetic to resonate with the web development theme. Semantic HTML and a simple color scheme ensure clarity and focus, while a modern, futuristic font reinforces the theme. The overall layout and structure support easy navigation and a smooth user journey.
 
-## Color Scheme
+### Color Scheme
 
 ![Color Scheme](./readme_pictures/color-scheme/color-scheme.png)
 
 The design of the website incorporates the following color scheme to ensure a modern, visually appealing, and user-focused experience:
 
-### Colors Used
+#### Colors Used
 
 1. **Gunmetal (#1F2933)**: Used for the navbar and some background sections to provide a sleek, dark tone that conveys professionalism and modernity.
 2. **Charcoal (#2C3E50)**: Utilized in main content sections to create a clear, unobtrusive background that allows text and visuals to stand out.
@@ -133,11 +130,11 @@ The design of the website incorporates the following color scheme to ensure a mo
 
 This color scheme creates a balance between usability, aesthetics, and purpose, helping to engage users while guiding their attention toward key interactive elements like the CTA buttons.
 
-## Typography
+### Typography
 
 The typography of the website was chosen to enhance readability while maintaining a modern and futuristic design aesthetic. Two complementary fonts from Google Fonts were used:
 
-### Fonts
+#### Fonts
 1. **Orbitron**:
 ![Orbitron Font](./readme_pictures/typographie/orbitron.png)
    - Used for headings and titles across the website.
@@ -151,7 +148,7 @@ The typography of the website was chosen to enhance readability while maintainin
    - A clean, sans-serif font that ensures high readability, even for long sections of text.
    - Complements Orbitron by providing a balance between modernity and legibility.
 
-### Font Usage
+#### Font Usage
 - **Headings**: Orbitron is used for all heading elements (`h1`, `h2`, `h3`, etc.), giving the site a consistent and bold structure.
 - **Body Text**: Roboto is used for paragraphs, navigation links, and other textual content to ensure readability across devices.
 - **Call-to-Action Buttons**: Both fonts are utilized strategically to make buttons and links stand out while staying consistent with the overall theme.
