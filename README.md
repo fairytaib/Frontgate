@@ -45,16 +45,21 @@ And on smaller devices, there is a Hamburger-Navigationbar:
 - **PDF Download Option**: Provides a downloadable resource on JavaScript basics.
 
 ## Technologies Used
-- **Languages**: HTML5, CSS
+- **Languages**: HTML, CSS
 - **Frameworks/Libraries**: Bootstrap CSS, Bootstrap JavaScript, Boxicons
 - **Creation Tools**:
   - **Image Creation**: ChatGPT
   - **Logo Creation**: Boxicons
   - **Header Background Video**: pexels.com
+- **Version Control**:
+  - **Git**: Used for version control to track changes and manage the development process.
+  - **GitHub**: Used as a cloud-based platform to store and share the code repository.
+  - **Gitpod**: Used as an integrated development environment (IDE) to write and edit the code.
 - **Tutorials Referenced**:
   - HTML Tags as Plain Text: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-display-html-tags-as-plain-text-in-html/)
   - Background Video Tutorial: [Kevin Powell - How to Create a Background Video](https://www.youtube.com/watch?v=RIDA6elhmBU)
   - PDF Download Button: [Stack Overflow](https://stackoverflow.com)
+
 
 ## Deployment and Local Deployment
 
