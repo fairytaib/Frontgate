@@ -42,7 +42,7 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
   When you click the button on the right side this window opens:
   ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
-- **PDF Download Option**: Allows users to download a PDF roadmap for starting their journey in front-end development.
+- **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
   
 ### HTML Page
 - **Navbar**: Includes navigation links and a CTA button.
