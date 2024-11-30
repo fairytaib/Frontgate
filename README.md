@@ -30,7 +30,17 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
   ![NavBar Mobile](./readme_pictures/intro-section/navigation-screenshot.png)
   
 
-- **Hero Section**: Features a call-to-action link and a video background to engage users.
+- **Hero Section**: Features a call-to-action link and a video background to engage users or examples of vanilla HTML, CSS or Javascript.
+  - On the starting page:
+  ![Index Hero Section](./readme_pictures/hero-section-examples/index-hero-section-example.png)
+  - On my HTML page:
+  ![HTML Hero Section](./readme_pictures/hero-section-examples/html-hero-section-example.png)
+  - On the CSS page:
+  ![CSS Hero Section](./readme_pictures/hero-section-examples/css-hero-section-example.png)
+  - On the Javascript page:
+  ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-outside.png)
+  When you click the button on the right side this window opens:
+  ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
 - **PDF Download Option**: Allows users to download a PDF roadmap for starting their journey in front-end development.
   
@@ -174,5 +184,5 @@ Future improvements are not currently planned but will be considered based on us
 ## Author and Acknowledgments
 **Author**: Sophjan Moubarrid
 
-**Acknowledgments**: Thanks to the creators of tutorials referenced for guidance on background video, HTML tagging, and PDF download button integration.
+**Acknowledgments**: Thanks to the creators of tutorials referenced for guidance on background video and HTML tagging.
 
