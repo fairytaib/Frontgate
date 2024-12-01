@@ -18,6 +18,7 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
 
 ### Navbar
 - Positioned at the top of the page.
+- The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
 - Includes a logo on the left and navigation links on the right.
 - Links include:
   - **Home**: Leads to the homepage with an overview of web development.
@@ -30,40 +31,61 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
   ![NavBar Mobile](./readme_pictures/intro-section/navigation-screenshot.png)
   
 
-- **Hero Section**: Features a call-to-action link and a video background to engage users or examples of vanilla HTML, CSS or Javascript.
-  - On the starting page:
+- **Hero Section**: Features a call-to-action link and a video background to engage users.
   ![Index Hero Section](./readme_pictures/hero-section-examples/index-hero-section-example.png)
-  - On my HTML page:
-  ![HTML Hero Section](./readme_pictures/hero-section-examples/html-hero-section-example.png)
-  - On the CSS page:
-  ![CSS Hero Section](./readme_pictures/hero-section-examples/css-hero-section-example.png)
-  - On the Javascript page:
-  ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-outside.png)
-  When you click the button on the right side this window opens:
-  ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
+
 - **Overview Sections**: Answers the questions, "What is Front-End Development?" and "Who can become a Front-End Developer?" to give users context.
+  ![Index Overview Section](./readme_pictures/main-section-example/index-main-section-example.png)
+- **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+  ![Index Card Section](./readme_pictures/card-section/index-card-section.png)
 - **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+  ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
   
 ### HTML Page
-- **Navbar**: Includes navigation links and a CTA button.
+- **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
 - **Hero Section**: Contains an HTML code example to give users a sense of HTML structure.
+   ![HTML Hero Section](./readme_pictures/hero-section-examples/html-hero-section-example.png)
 - **Overview Sections**: Answers questions such as "Why is HTML important in web development?" and "How do I write HTML?".
+  ![HTML Overview Section](./readme_pictures/main-section-example/html-main-section-example.png)
+  This Part has a button included to give an example of vanilla HTML
+  ![Vanilla HTML example](./readme_pictures/main-section-example/html-main-section-button-open.png)
 - **Accordion Feature**: Provides expandable content for more detailed information.
-- **PDF Download Option**: Users can download a PDF for offline learning resources.
+  ![HTML Accordion Section](./readme_pictures/main-section-example/html-main-section-example-accordion.png)
+  The Accordion opend look like this
+  ![HTML Accordion open](./readme_pictures/main-section-example/html-main-section-example-accordion-open.png)
+- **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+  ![Index Card Section](./readme_pictures/card-section/html-card-section.png)
+
+- **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+  ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ### CSS Page
-- **Navbar**: Includes navigation links and a CTA button.
+- **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
 - **Hero Section**: Displays a CSS code example to illustrate styling basics.
+  ![CSS Hero Section](./readme_pictures/hero-section-examples/css-hero-section-example.png)
 - **Overview Sections**: Covers "Why use CSS and what can it do?" and "How do I write CSS?".
+![CSS Main Section](./readme_pictures/main-section-example/css-main-section.png)
 - **Accordion Feature**: Expands with more detailed content on CSS.
-- **PDF Download Option**: Offers a downloadable PDF for CSS learning resources.
+![CSS Accordion Section](./readme_pictures/main-section-example/css-main-section-accordion-example.png)
+The Accordion opend look like this
+![CSS Accordion open](./readme_pictures/main-section-example/css-main-section-accordion-open.png)
+- **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+  ![Css Card Section](./readme_pictures/card-section/css-card-section.png)
+- **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+  ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ### JavaScript Page
-- **Navbar**: Includes navigation links and a CTA button.
+- **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
 - **Hero Section**: Features a JavaScript example for introducing interactivity.
+  ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-outside.png)
+    When you click the button on the right side this window opens:
+    ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
 - **Overview Sections**: Explains "What is JavaScript used for in web development?" and "What do I need to know to start with JavaScript?".
 - **Accordion Feature**: Contains expandable sections with more detail on JavaScript.
-- **PDF Download Option**: Provides a downloadable resource on JavaScript basics.
+- **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+  ![Index Card Section](./readme_pictures/card-section/javascript-card-section.png)
+- **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+  ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ## Technologies Used
 - **Languages**: HTML, CSS
