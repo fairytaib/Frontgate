@@ -45,51 +45,89 @@ This is the [Live Version](https://fairytaib.github.io/Frontgate/)
 ### HTML Page
 - **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
 - **Hero Section**: Contains an HTML code example to give users a sense of HTML structure.
+
    ![HTML Hero Section](./readme_pictures/hero-section-examples/html-hero-section-example.png)
 - **Overview Sections**: Answers questions such as "Why is HTML important in web development?" and "How do I write HTML?".
+
   ![HTML Overview Section](./readme_pictures/main-section-example/html-main-section-example.png)
+
   This Part has a button included to give an example of vanilla HTML
+
+
   ![Vanilla HTML example](./readme_pictures/main-section-example/html-main-section-button-open.png)
 - **Accordion Feature**: Provides expandable content for more detailed information.
+
   ![HTML Accordion Section](./readme_pictures/main-section-example/html-main-section-example-accordion.png)
+
   The Accordion opend look like this
+
   ![HTML Accordion open](./readme_pictures/main-section-example/html-main-section-example-accordion-open.png)
+
 - **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+
   ![Index Card Section](./readme_pictures/card-section/html-card-section.png)
 
 - **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+
   ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ### CSS Page
 - **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
+
 - **Hero Section**: Displays a CSS code example to illustrate styling basics.
+
   ![CSS Hero Section](./readme_pictures/hero-section-examples/css-hero-section-example.png)
+
 - **Overview Sections**: Covers "Why use CSS and what can it do?" and "How do I write CSS?".
+
 ![CSS Main Section](./readme_pictures/main-section-example/css-main-section.png)
+
 - **Accordion Feature**: Expands with more detailed content on CSS.
+
 ![CSS Accordion Section](./readme_pictures/main-section-example/css-main-section-accordion-example.png)
+
 The Accordion opend look like this
+
 ![CSS Accordion open](./readme_pictures/main-section-example/css-main-section-accordion-open.png)
+
 - **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+
   ![Css Card Section](./readme_pictures/card-section/css-card-section.png)
+
 - **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+
   ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ### JavaScript Page
+
 - **Navbar**: Includes navigation links and a Call-to-Action (CTA) button, identical to the start page. The navbar is fixed at the top, ensuring it remains visible to the user while scrolling.
+
 - **Hero Section**: Features a JavaScript example for introducing interactivity.
+
   ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-outside.png)
+
     When you click the button on the right side this window opens:
+
     ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
+
 - **Overview Sections**: Explains "What is JavaScript used for in web development?" and "What do I need to know to start with JavaScript?".
+
   ![Javascript Overview Section](./readme_pictures/main-section-example/javascript-main-section.png)
+
 - **Accordion Feature**: Contains expandable sections with more detail on JavaScript.
+
   ![Javascript Overview Section](./readme_pictures/main-section-example/javascript-accordion-section.png)
+
   The Accordion opend look like this
+
   ![Javascript Overview Section](./readme_pictures/main-section-example/javascript-accordion-section-open.png)
+
 - **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
+
   ![Index Card Section](./readme_pictures/card-section/javascript-card-section.png)
+
 - **Contact Form**: Enables users to reach out to the enterprise, providing an effective channel for feedback and communication.
+
   ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
 ## Technologies Used
@@ -173,13 +211,15 @@ The typography of the website was chosen to enhance readability while maintainin
 
 #### Fonts
 1. **Orbitron**:
-![Orbitron Font](./readme_pictures/typographie/orbitron.png)
+
+  ![Orbitron Font](./readme_pictures/typographie/orbitron.png)
    - Used for headings and titles across the website.
    - A futuristic, geometric font that aligns with the technical and modern theme of the site.
    - Creates a strong visual impact, drawing attention to important sections and maintaining a sleek aesthetic.
    
 
 2. **Roboto**:
+
   ![Orbitron Font](./readme_pictures/typographie/roboto.png)
    - Used for body text and paragraph content.
    - A clean, sans-serif font that ensures high readability, even for long sections of text.
