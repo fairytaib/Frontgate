@@ -81,6 +81,7 @@ The Accordion opend look like this
     When you click the button on the right side this window opens:
     ![Javascript Hero Section](./readme_pictures/hero-section-examples/javascript-hero-section-example-inside.png)
 - **Overview Sections**: Explains "What is JavaScript used for in web development?" and "What do I need to know to start with JavaScript?".
+  ![Javascript Overview Section](./readme_pictures/main-section-example/javascript-main-section.png)
 - **Accordion Feature**: Contains expandable sections with more detail on JavaScript.
 - **Card Feature**: This section includes visually appealing cards that provide quick navigation links to other pages of the website.
   ![Index Card Section](./readme_pictures/card-section/javascript-card-section.png)
