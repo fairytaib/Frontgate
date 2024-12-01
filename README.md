@@ -105,7 +105,7 @@ The Accordion opend look like this
 - **Tutorials Referenced**:
   - HTML Tags as Plain Text: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-display-html-tags-as-plain-text-in-html/)
   - Background Video Tutorial: [Kevin Powell - How to Create a Background Video](https://www.youtube.com/watch?v=RIDA6elhmBU)
-  - PDF Download Button: [Stack Overflow](https://stackoverflow.com)
+
 
 
 ## Deployment and Local Deployment
