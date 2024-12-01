@@ -236,7 +236,38 @@ The combination of these fonts creates a futuristic and professional look while 
 
 ## Testing
 - **Responsiveness**: All buttons and links were tested for responsiveness on various screen sizes and devices.
+
 - **Validation**: The HTML and CSS have been validated using the W3C Validator to ensure compliance.
+  - Index Page HTML Validation:
+
+  ![W3C Validation Index page](./readme_pictures/testing/w3c-validation/index.png)
+  In this case, no action is required as the use of multiple "h1" elements aligns with the design structure of the page. Each "h1" is contextually relevant, and accessibility tools handle them correctly in this implementation.
+
+  - Index Page HTML Validation:
+
+  ![W3C Validation HTML page](./readme_pictures/testing/w3c-validation/html-w3c-validation.png)
+
+  - CSS Page HTML Validation:
+
+  ![W3C Validation CSS page](./readme_pictures/testing/w3c-validation/css-w3c-validation.png)
+
+  - Javascript Page HTML Validation:
+
+  ![W3C Validation Javascript page](./readme_pictures/testing/w3c-validation/javascript-w3c-validation.png)
+
+  - CSS Validation:
+
+  ![W3C Validation Javascript page](./readme_pictures/testing/w3c-validation/css-jigsaw-validation.png)
+
+- **Lighthouse Performance**: The website was evaluated using Google's Lighthouse extension and received the following performance ratings:
+
+  - Performance: 90/100
+  - Accessibility: 98/100
+  - Best Practices: 100/100
+  - SEO: 100/100
+
+  ![W3C Validation Javascript page](./readme_pictures/testing/lighthouse/lighthouse-score.png)
+
 - **Mentoring and Tutor Feedback**: Design and functionality were reviewed by a mentor and a tutor for improvements.
 
 ## Disclaimer
