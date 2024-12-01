@@ -12,6 +12,7 @@
     --footer-color: #0D1B2A;
     --main-call-to-action: #0D1B2A;
     --second-call-to-action: #FF5722;
+    --white-color: white;
 }
 
 /* General Styling */
@@ -27,13 +28,13 @@ h4,
 h5,
 h6 {
     font-family: var(--headings-font);
-    color: white;
+    color: var(--white-color);
 }
 
 p,
 .nav-link {
     font-family: var(--text-font);
-    color: white;
+    color: var(--white-color);
 }
 
 .call-to-action {
@@ -58,9 +59,9 @@ nav {
 }
 
 #logo-icon {
-    color: white;
+    color: var(--white-color);
     width: 60px;
-    border: white solid 1px;
+    border: var(--white-color) solid 1px;
 }
 
 .nav-link {
