@@ -235,6 +235,17 @@ The combination of these fonts creates a futuristic and professional look while 
 
 
 ## Testing
+- **Browser Compatibility**
+
+  The website was tested for functionality and responsiveness on the following browsers:  
+
+  - **Opera GX**  
+  - **Firefox**  
+  - **Microsoft Edge**  
+
+  All tests confirmed consistent performance and user experience across these platforms.
+
+
 - **Responsiveness**: All buttons and links were tested for responsiveness on various screen sizes and devices.
 
 - **Validation**: The HTML and CSS have been validated using the W3C Validator to ensure compliance.
