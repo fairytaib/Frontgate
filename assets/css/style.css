@@ -132,7 +132,7 @@ nav {
     position: relative;
     width: 100%;
     height: 25vh;
-    overflow: none;
+    overflow: hidden;
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
