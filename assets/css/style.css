@@ -141,7 +141,7 @@ nav {
 
 /* Modals html- and javascript-page*/
 .modal-title {
-    color: black-text-color;
+    color: var(--black-text-color);
 }
 
 /* Javascript-Page-Section */
@@ -170,8 +170,8 @@ nav {
 }
 
 .main-content-btn:hover {
-    color: black-text-color;
-    background-color: white-text-color;
+    color: var(--black-text-color);
+    background-color: var(--white-text-color);
 }
 
 .javascript-btn {
@@ -185,26 +185,26 @@ nav {
 .call-to-action:hover,
 .javascript-btn:hover,
 .css-btn:hover {
-    border: black-text-color solid 1px;
+    border: var(--black-text-color) solid 1px;
 }
 
 #hero-Btn:hover {
-    background-color: white-text-color;
-    color: black-text-color;
+    background-color: var(--white-text-color);
+    color: var(--black-text-color);
 }
 
 .css-design-one {
     font-family: var(--headings-font);
-    color: black-text-color;
+    color: var(--black-text-color);
 }
 
 .css-design-two {
     font-family: var(--text-font);
-    color: black-text-color;
+    color: var(--black-text-color);
 }
 
 .accordion-button {
-    color: white-text-color;
+    color: var(--white-text-color);
 }
 
 .accordion-picture {
@@ -218,13 +218,13 @@ nav {
 /* footer */
 footer {
     background-color: var(--footer-color);
-    color: white-text-color;
+    color: var(--white-text-color);
     font-family: var(--text-font);
 }
 
 #form-button:hover {
-    background-color: white-text-color;
-    color: black-text-color;
+    background-color: var(--white-text-color);
+    color: var(--black-text-color);
 }
 
 @media only screen and (max-width: 576px) {
