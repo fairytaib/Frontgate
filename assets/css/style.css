@@ -12,7 +12,8 @@
     --footer-color: #0D1B2A;
     --main-call-to-action: #0D1B2A;
     --second-call-to-action: #FF5722;
-    --white-color: white;
+    --white-text-color: white;
+    --black-text-color: black;
 }
 
 /* General Styling */
@@ -28,13 +29,13 @@ h4,
 h5,
 h6 {
     font-family: var(--headings-font);
-    color: var(--white-color);
+    color: var(--white-text-color);
 }
 
 p,
 .nav-link {
     font-family: var(--text-font);
-    color: var(--white-color);
+    color: var(--white-text-color);
 }
 
 .call-to-action {
@@ -59,9 +60,9 @@ nav {
 }
 
 #logo-icon {
-    color: var(--white-color);
+    color: var(--white-text-color);
     width: 60px;
-    border: var(--white-color) solid 1px;
+    border: var(--white-text-color) solid 1px;
 }
 
 .nav-link {
@@ -74,17 +75,17 @@ nav {
 }
 
 #navbar-btn:hover {
-    background-color: whitesmoke;
+    background-color: var(--body-color);
 }
 
 /* general Hamburger Navbar*/
 .navbar-toggler {
-    background-color: white;
+    background-color: var(--white-text-color);
 }
 
 /* general Hero-Main-Section */
 .hero-section {
-    color: white;
+    color: var(--white-text-color);
     padding-top: 70px;
 }
 
@@ -140,7 +141,7 @@ nav {
 
 /* Modals html- and javascript-page*/
 .modal-title {
-    color: black;
+    color: black-text-color;
 }
 
 /* Javascript-Page-Section */
@@ -169,8 +170,8 @@ nav {
 }
 
 .main-content-btn:hover {
-    color: black;
-    background-color: white;
+    color: black-text-color;
+    background-color: white-text-color;
 }
 
 .javascript-btn {
@@ -184,26 +185,26 @@ nav {
 .call-to-action:hover,
 .javascript-btn:hover,
 .css-btn:hover {
-    border: black solid 1px;
+    border: black-text-color solid 1px;
 }
 
 #hero-Btn:hover {
-    background-color: white;
-    color: black;
+    background-color: white-text-color;
+    color: black-text-color;
 }
 
 .css-design-one {
     font-family: var(--headings-font);
-    color: black;
+    color: black-text-color;
 }
 
 .css-design-two {
     font-family: var(--text-font);
-    color: black;
+    color: black-text-color;
 }
 
 .accordion-button {
-    color: white;
+    color: white-text-color;
 }
 
 .accordion-picture {
@@ -217,13 +218,13 @@ nav {
 /* footer */
 footer {
     background-color: var(--footer-color);
-    color: white;
+    color: white-text-color;
     font-family: var(--text-font);
 }
 
 #form-button:hover {
-    background-color: white;
-    color: black;
+    background-color: white-text-color;
+    color: black-text-color;
 }
 
 @media only screen and (max-width: 576px) {
