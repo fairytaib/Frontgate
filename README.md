@@ -270,7 +270,7 @@ The combination of these fonts creates a futuristic and professional look while 
 
   ![W3C Validation Javascript page](./readme_pictures/testing/w3c-validation/css-jigsaw-validation.png)
 
-- **Lighthouse Performance**: The website was evaluated using Google's Lighthouse extension and received the following performance ratings:
+- **Lighthouse Performance**: The website was evaluated using Google's Lighthouse extension and received the following performance ratings on all pages:
 
   - Performance: 90/100
   - Accessibility: 98/100
@@ -279,7 +279,20 @@ The combination of these fonts creates a futuristic and professional look while 
 
   ![W3C Validation Javascript page](./readme_pictures/testing/lighthouse/lighthouse-score.png)
 
-- **Mentoring and Tutor Feedback**: Design and functionality were reviewed by a mentor and a tutor for improvements.
+  ### Bugs Encountered
+
+  - **Accordion Arrow Color Issue**:
+    While customizing the Bootstrap accordion, I encountered an issue where the arrow color could not be changed using standard CSS. This was due to the use of an embedded SVG in Bootstrap for the arrow icons. 
+
+    - **Solution**:  
+    To resolve this, I modified the `fill` attribute of the SVG directly in the CSS to change the arrow color. This successfully applied the desired color to the accordion arrows.
+
+  - ### General Observations
+    No additional bugs or significant difficulties were encountered during the development process. The project proceeded smoothly, with all features working as intended.
+
+
+  ### Mentoring and Tutor Feedback: 
+  Design and functionality were reviewed by a mentor and a tutor for improvements.
 
 ## Disclaimer
 
