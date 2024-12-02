@@ -245,8 +245,9 @@ The combination of these fonts creates a futuristic and professional look while 
 
   All tests confirmed consistent performance and user experience across these platforms.
 
-
 - **Responsiveness**: All buttons and links were tested for responsiveness on various screen sizes and devices.
+- **Functionality Testing**
+  All buttons and accordions on the website were thoroughly tested to ensure they function as intended. Each button performs its respective action correctly, and the accordions expand and collapse smoothly, displaying the appropriate content without any issues.
 
 - **Validation**: The HTML and CSS have been validated using the W3C Validator to ensure compliance.
   - Index Page HTML Validation:
