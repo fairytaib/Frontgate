@@ -104,6 +104,12 @@ nav {
     font-size: 1.2rem;
 }
 
+/* Javascript Hero Section */
+#demo-button-subheader {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
 /* background-video index-page*/
 .video-bg {
     position: absolute;
