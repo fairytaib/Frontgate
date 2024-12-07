@@ -117,7 +117,7 @@ nav {
 
 /* picture-Backgrounds html- and css-page */
 .img-container#css-example-picture {
-    background-image: url(../images/css-example.png);
+    background-image: url("../images/css-example.png");
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -128,7 +128,7 @@ nav {
 }
 
 .img-container#html-example-picture {
-    background-image: url(../images/html-example-hero-section.png);
+    background-image: url("../images/html-example-hero-section.png");
     position: relative;
     width: 100%;
     height: 25vh;
