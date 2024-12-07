@@ -130,46 +130,6 @@ The Accordion opend look like this
 
   ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
-## Technologies Used
-- **Languages**: HTML, CSS
-- **Frameworks/Libraries**: Bootstrap CSS, Bootstrap JavaScript, Boxicons
-- **Creation Tools**:
-  - **Image Creation**: ChatGPT
-  - **Logo Creation**: Boxicons
-  - **Header Background Video**: pexels.com
-- **Version Control**:
-  - **Git**: Used for version control to track changes and manage the development process.
-  - **GitHub**: Used as a cloud-based platform to store and share the code repository.
-  - **Gitpod**: Used as an integrated development environment (IDE) to write and edit the code.
-- **Tutorials Referenced**:
-  - HTML Tags as Plain Text: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-display-html-tags-as-plain-text-in-html/)
-  - Background Video Tutorial: [Kevin Powell - How to Create a Background Video](https://www.youtube.com/watch?v=RIDA6elhmBU)
-
-
-
-## Deployment and Local Deployment
-
-### Deployment to GitHub Pages
-The site was deployed to GitHub Pages. Follow these steps to deploy the project yourself:
-
-1. Navigate to the **Settings** tab in your GitHub repository.
-2. Scroll down to the **Pages** section.
-3. From the **Source** drop-down menu, select the `Main Branch` (or your default branch) and click "Save".
-4. The page will automatically refresh, and you will see a ribbon at the top indicating the successful deployment.
-5. You can now access your live site via the provided link.
-
-The live link for this project can be found [here](https://fairytaib.github.io/Frontgate/).
-
----
-
-### Local Deployment
-If you wish to create a local copy of this project, follow these steps:
-
-1. **Clone the Repository**:
-  Open your terminal or command prompt, and type the following command:
-    ```bash
-    git clone https://github.com/fairytaib/Frontgate.git
-
 ## User Stories
 
 ### First Time Visitors
@@ -232,6 +192,46 @@ The typography of the website was chosen to enhance readability while maintainin
 
 ### Rationale
 The combination of these fonts creates a futuristic and professional look while maintaining usability. The contrast between the bold headings and clean body text ensures that the content hierarchy is clear, helping users navigate the site effectively.
+
+## Technologies Used
+- **Languages**: HTML, CSS
+- **Frameworks/Libraries**: Bootstrap CSS, Bootstrap JavaScript, Boxicons
+- **Creation Tools**:
+  - **Image Creation**: ChatGPT
+  - **Logo Creation**: Boxicons
+  - **Header Background Video**: pexels.com
+- **Version Control**:
+  - **Git**: Used for version control to track changes and manage the development process.
+  - **GitHub**: Used as a cloud-based platform to store and share the code repository.
+  - **Gitpod**: Used as an integrated development environment (IDE) to write and edit the code.
+- **Tutorials Referenced**:
+  - HTML Tags as Plain Text: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-display-html-tags-as-plain-text-in-html/)
+  - Background Video Tutorial: [Kevin Powell - How to Create a Background Video](https://www.youtube.com/watch?v=RIDA6elhmBU)
+
+
+
+## Deployment and Local Deployment
+
+### Deployment to GitHub Pages
+The site was deployed to GitHub Pages. Follow these steps to deploy the project yourself:
+
+1. Navigate to the **Settings** tab in your GitHub repository.
+2. Scroll down to the **Pages** section.
+3. From the **Source** drop-down menu, select the `Main Branch` (or your default branch) and click "Save".
+4. The page will automatically refresh, and you will see a ribbon at the top indicating the successful deployment.
+5. You can now access your live site via the provided link.
+
+The live link for this project can be found [here](https://fairytaib.github.io/Frontgate/).
+
+---
+
+### Local Deployment
+If you wish to create a local copy of this project, follow these steps:
+
+1. **Clone the Repository**:
+  Open your terminal or command prompt, and type the following command:
+    ```bash
+    git clone https://github.com/fairytaib/Frontgate.git
 
 
 ## Testing
