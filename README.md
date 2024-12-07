@@ -240,8 +240,14 @@ If you wish to create a local copy of this project, follow these steps:
   The website was tested for functionality and responsiveness on the following browsers:  
 
   - **Opera GX**  
+
+    ![Opera GX Browser Compatibilty](./readme_pictures/testing/browsers-compatibility/opera-gx-testing.png)
   - **Firefox**  
-  - **Microsoft Edge**  
+
+    ![Firefox Browser Compatibilty](./readme_pictures/testing/browsers-compatibility/mozilla-firefox-testing.png)
+  - **Microsoft Edge** 
+
+    ![Microsoft Edge Browser Compatibilty](./readme_pictures/testing/browsers-compatibility/microsoft-edge-testing.png)
 
   All tests confirmed consistent performance and user experience across these platforms.
 
