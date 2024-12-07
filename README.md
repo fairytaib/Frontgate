@@ -130,6 +130,26 @@ The Accordion opend look like this
 
   ![Contact Form](./readme_pictures/contact-section/contact-section-example.png)
 
+## Responsiveness and Mobile View
+
+The website was designed and tested to ensure a seamless experience across different devices and screen sizes. Below are screenshots showcasing the responsive design on various devices. The repeating Image with the Context "All eyes on Rafah" were created by the extension ResponsiveViewe and couldn't be removed:
+
+### Index page View
+![Index View](./readme_pictures/testing/responsivness/index-responsivness.png)
+
+### HTML page View
+![Index View](./readme_pictures/testing/responsivness/html-responsivness.png)
+
+### CSS page View
+![Index View](./readme_pictures/testing/responsivness/css-responsivness.png)
+
+### Javascript page View
+![Index View](./readme_pictures/testing/responsivness/javascript-responsivness.png)
+
+The layout adjusts dynamically to different screen widths, ensuring that all elements, including navigation bars, buttons, and content sections, remain accessible and visually appealing on desktops, tablets, and mobile devices.
+
+
+
 ## User Stories
 
 ### First Time Visitors
