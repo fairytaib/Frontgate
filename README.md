@@ -4,13 +4,13 @@
 ![Home page view](./readme_pictures/intro-section/all-devices.png)
 
 ## Description
-Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them.
+Frontgate is a website designed to provide a brief and engaging overview of web development, with a focus on the core components of front-end development: HTML, CSS, and JavaScript. This site is aimed at individuals interested in learning the basics of web development and exploring whether front-end development is a good fit for them. This is the [Live Version](https://fairytaib.github.io/Frontgate/)
 
 ![Home page view](./readme_pictures/intro-section/homepage.png)
 ![Home page view](./readme_pictures/intro-section/homepage-two.png)
 ![Home page view](./readme_pictures/intro-section/homepage-three.png)
 
-This is the [Live Version](https://fairytaib.github.io/Frontgate/)
+
 
 
 
